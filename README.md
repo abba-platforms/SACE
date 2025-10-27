@@ -33,7 +33,7 @@ SACE provides a unified benchmark for Africa’s collective currency strength, e
 
 ## Executive Summary 
 
-The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing national currencies**. Inspired by benchmarks such as the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
+The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing national currencies**, collectively valued at more than **$2.3 trillion USD**. Inspired by benchmarks such as the **Dow Jones Industrial Average (DJIA)**, **S&P 500**, **NASDAQ 100**, and the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
 
 SACE consolidates Africa’s top 21 currencies into a single tradable instrument, creating a transparent benchmark for the continent’s currency performance. It enhances market efficiency, improves liquidity, enables effective hedging against currency volatility, and facilitates cross-border trade — positioning SACE as a foundational economic tool for Africa’s growing financial ecosystem.  
 
