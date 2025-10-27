@@ -8,6 +8,14 @@
 
 ---
 
+## [v1.0.6] – 2025-10-27  
+**Updated:** Executive Summary in `README.md` to include the **$2.3 trillion USD valuation** of the SACE currency basket.  
+- Added explicit reference to the total valuation of Africa’s top 21 national currencies represented by SACE.  
+- Improved narrative clarity around SACE’s macroeconomic role and its benchmarking to indices like the **U.S. Dollar Index (DXY)**.  
+- Maintained original tone, formatting, and structure while reinforcing SACE’s position as a foundational financial instrument in Africa’s digital economy.  
+
+---
+
 ## [v1.0.6] – 2025-10-27
 - Updated SACE.sol in the repository to match the latest verified implementation on BSC Mainnet.
 - Ensures the repository reflects the production-ready, safe implementation.
