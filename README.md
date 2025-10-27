@@ -19,11 +19,12 @@
 ### 🚀 Mainnet Deployment
 
 The **Synthetic African Currency Exchange (SACE)** smart contract has been successfully deployed to the **BNB Smart Chain (Mainnet)**.  
-SACE represents a **weighted basket of Africa’s top 21 national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**SACE**.
+SACE represents a **weighted basket of Africa’s top 21 performing national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**SACE**.
 
 **Deployment Details:**
 - **Network:** BNB Smart Chain (Mainnet)  
 - **Proxy Verified Contract Address:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
+- **Implementation Verified Contract Address:** `0x7E1633443a50866847C92A580FbD9c531107061b`
 - **Standard:** BEP-20 (Upgradeable Proxy via OpenZeppelin)    
 
 SACE provides a unified benchmark for Africa’s collective currency strength, enabling efficient trading, hedging, and cross-border commerce.  
@@ -32,7 +33,7 @@ SACE provides a unified benchmark for Africa’s collective currency strength, e
 
 ## Executive Summary 
 
-The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing currencies**. Inspired by benchmarks such as the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
+The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing national currencies**. Inspired by benchmarks such as the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
 
 SACE consolidates Africa’s top 21 currencies into a single tradable instrument, creating a transparent benchmark for the continent’s currency performance. It enhances market efficiency, improves liquidity, enables effective hedging against currency volatility, and facilitates cross-border trade — positioning SACE as a foundational economic tool for Africa’s growing financial ecosystem.  
 
