@@ -8,9 +8,11 @@
 
 ---
 
-Excellent 👍
+**[v1.0.6] – 2025-10-27**
 
-Here’s the next logical `CHANGELOG.md` entry — following your last version `v1.0.4` — formatted consistently and professionally:
+* Added verified **SACE implementation address** (`0x7E1633443a50866847C92A580FbD9c531107061b`) to the README under Mainnet Deployment.
+* Clarified that the proxy is currently pointing to the safe verified implementation.
+* No other changes to code, documentation, or tokenomics.
 
 ---
 
