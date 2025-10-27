@@ -9,6 +9,15 @@
 ---
 
 ## [v1.0.6] – 2025-10-27
+- Updated SACE.sol in the repository to match the latest verified implementation on BSC Mainnet.
+- Ensures the repository reflects the production-ready, safe implementation.
+- Aligns the codebase with Proxy and Implementation contract addresses:
+  - Proxy: 0x3Bb737BFaCfA48e912014686D051D6f39c747802
+  - Implementation: 0x7E1633443a50866847C92A580FbD9c531107061b
+
+---
+
+## [v1.0.6] – 2025-10-27
 
 * Added verified **SACE implementation address** (`0x7E1633443a50866847C92A580FbD9c531107061b`) to the README under Mainnet Deployment.
 * Clarified that the proxy is currently pointing to the safe verified implementation.
