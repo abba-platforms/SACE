@@ -41,6 +41,22 @@ SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapen
 
 ---
 
+## 📄 Whitepaper Summary
+
+The **Synthetic African Currency Exchange (SACE)** Whitepaper provides a complete overview of SACE as a **BEP-20 blockchain token representing a weighted basket of Africa’s top 21 performing currencies**, with a combined valuation exceeding **$2.3 trillion USD**.  
+
+Key highlights include:  
+- **Valuation Model:** Starting indicative value of ~$23 per SACE token based on the African currency basket.  
+- **Tokenomics:** Max supply of 100 billion SACE tokens, treasury-controlled distribution, and governance mechanisms.  
+- **Technical Overview:** Upgradeable UUPS proxy, Chainlink oracle integration, deviation protection, and transparent events.  
+- **Economic Impact:** Facilitates cross-border trade, improves liquidity, provides hedging against currency volatility, and serves as a benchmark for Africa’s macroeconomic performance.  
+- **Governance:** Multi-sig treasury, timelocks, and basket rebalancing mechanisms for secure, community-driven upgrades.  
+- **Strategic Insight:** Tracks Africa’s currency performance similarly to DJIA, S&P 500, and NASDAQ 100 for the U.S. market.  
+
+For the **full Whitepaper**, visit: [SACE_Whitepaper.md](./SACE_Whitepaper.md)
+
+---
+
 ## Purpose
 
 SACE is designed to:  
