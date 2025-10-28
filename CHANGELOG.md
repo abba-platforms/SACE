@@ -8,6 +8,14 @@
 
 ---
 
+## [v1.0.7] – 2025-10-28
+
+### Added
+- Introduced a "Whitepaper Summary" section in the README to provide a concise overview of SACE, including its purpose, tokenomics, governance, and projected $2.3 trillion USD valuation.
+- Added link to the full Whitepaper for detailed technical and economic analysis.
+
+---
+
 ## [v1.0.7] - 2025-10-28
 
 ### Added
