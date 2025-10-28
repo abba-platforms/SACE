@@ -8,6 +8,24 @@
 
 ---
 
+## [v1.0.7] - 2025-10-28
+
+### Added
+- Expanded SACE Whitepaper with new details on valuation, tokenomics, and market impact.
+- Added comprehensive section highlighting SACE’s $2.3 trillion USD debut valuation and projected $230 million USD net worth per founding member.
+- Included verified contract addresses (Proxy & Implementation) and GitHub repository link.
+- Added “Basic Project Information” section with key technical details for Coinbase listing.
+- Prepared documentation alignment for upcoming IEO launch.
+
+### Updated
+- Enhanced narrative and formatting consistency across all Whitepaper sections.
+- Improved overall readability and global presentation quality.
+
+### Repository
+- **GitHub:** [https://github.com/abba-platforms/SACE](https://github.com/abba-platforms/SACE)
+
+---
+
 ## [v1.0.6] – 2025-10-27  
 **Updated:** Executive Summary in `README.md` to include the **$2.3 trillion USD valuation** of the SACE currency basket.  
 - Added explicit reference to the total valuation of Africa’s top 21 national currencies represented by SACE.  
