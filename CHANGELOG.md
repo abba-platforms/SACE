@@ -8,6 +8,14 @@
 
 ---
 
+[v1.0.7] – 2025-10-28
+
+- Updated social media announcement for SACE to include direct link to [Simon Kapenda's LinkedIn](https://linkedin.com/in/simonkapenda).
+- Added full SACE Whitepaper URL: https://github.com/abba-platforms/SACE/blob/main/SACE_Whitepaper.md.
+- Ensures proper attribution to the creator and provides readers with access to comprehensive project details, tokenomics, and economic impact.
+
+---
+
 ## [v1.0.7] – 2025-10-28
 
 ### Added
