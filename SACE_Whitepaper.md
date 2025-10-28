@@ -1,7 +1,7 @@
 # Synthetic African Currency Exchange (SACE) — Whitepaper
 
 **Ticker:** SACE  
-**Creator:** Simon Kapenda  
+**Creator:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)   
 **Version:** 1.2  
 **Date:** October 6, 2025 (Revised: October 28, 2025)  
 
@@ -166,7 +166,6 @@ This gives an approximate **market capitalization** at launch of:
 
 >100,000,000,000 SACE × $23 = $2,300,000,000,000 USD
 
-
 This aligns SACE’s total market cap proportionally with the estimated value of the African currency basket it represents.
 
 ---
@@ -260,7 +259,7 @@ With its **$2.3 trillion valuation**, robust technical framework, and visionary 
 
 ---
 
-**Author:** Simon Kapenda  
+**Author:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)  
 **Founder & Creator of SACE**  
 **Abba Platforms Inc.**  
 **GitHub Repository:** [https://github.com/abba-platforms/SACE](https://github.com/abba-platforms/SACE)
