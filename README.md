@@ -22,9 +22,10 @@ The **Synthetic African Currency Exchange (SACE)** smart contract has been succe
 SACE represents a **weighted basket of Africa’s top 21 performing national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**SACE**.
 
 **Deployment Details:**
-- **Network:** BNB Smart Chain (Mainnet)  
+- **Network:** BNB Smart Chain (Mainnet) — Main     
 - **Proxy Verified Contract Address:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
 - **Implementation Verified Contract Address:** `0x7E1633443a50866847C92A580FbD9c531107061b`
+- **SACE Oracle Registry:** `0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480`
 - **Standard:** BEP-20 (Upgradeable Proxy via OpenZeppelin)    
 
 SACE provides a unified benchmark for Africa’s collective currency strength, enabling efficient trading, hedging, and cross-border commerce.  
