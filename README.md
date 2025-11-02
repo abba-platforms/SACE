@@ -97,6 +97,24 @@ As of October 2025, the SACE Currency Basket Index includes the following Africa
 
 ---
 
+## 🧩 SACE Smart Contract Overview
+
+The Synthetic African Currency Exchange (**SACE**) is deployed on **BNB Smart Chain (Mainnet)** and operates through a verifiable, upgradeable contract architecture designed for transparency, real-time data accuracy, and investor trust.
+
+**Core Contracts:**
+- **SACE Proxy (Main Contract):** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
+- **SACE Implementation:** `0x7E1633443a50866847C92A580FbD9c531107061b`  
+- **SACE Oracle Registry:** `0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480`
+
+SACE uses a **hybrid oracle system** combining **Chainlink’s on-chain data feeds** (for major currencies like ZAR) and **SACE’s Hybrid Feeds** (for other African currencies). The Hybrid Feeds aggregate real-time market data from sources such as **OANDA, XE, and Investing.com**, which are validated and published on-chain every hour. This ensures accurate, transparent, and verifiable price updates — all visible on **BscScan**.
+
+The upgradeable UUPS Proxy model allows the SACE protocol to evolve without changing its main contract address, ensuring both stability for users and flexibility for future innovation. Every feed update, logic change, and timestamp is **recorded immutably on-chain**, allowing investors and traders to independently verify that SACE operates with full transparency.
+
+📄 **Full technical explanation and interaction diagram:**  
+See [SACE_CONTRACTS_SUMMARY.md](./SACE_CONTRACTS_SUMMARY.md)
+
+---
+
 ## 📊 SACE Basket Value Summary
 
 As the Synthetic African Currency Exchange (**SACE**) representing a weighted basket of Africa’s top 21 performing currencies, the combined estimated value of this basket is approximately **$2.3 trillion USD**, as of October 2025.
