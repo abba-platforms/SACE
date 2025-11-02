@@ -8,6 +8,40 @@
 
 ---
 
+## [v1.0.8] - 2025-11-02  
+### Comprehensive Documentation and Oracle Transparency Update for SACE Contracts
+
+#### Added
+- **SACEOracleRegistry.sol** added under `contracts/` (flattened version) for public verification on BscScan.  
+  This contract manages hybrid and Chainlink-based price feeds for African currencies.
+- **AggregatorV3Interface.sol** added under `contracts/interfaces/` to support Chainlink oracle data structure.
+- **docs/SACE_CONTRACTS_SUMMARY.md** introduced — a detailed, investor-oriented explanation of how SACE works.  
+  It describes the interrelation between the **SACE Proxy**, **Implementation**, and **Oracle Registry**,  
+  including how on-chain and hybrid price feeds are securely managed.
+- New **Oracle Trust Model** section detailing how Tier 2 (Hybrid) prices are retrieved from trusted data sources (XE, OANDA, etc.)  
+  and updated on-chain to ensure real-time reliability and transparency.
+
+#### Updated
+- **README.md** updated with a concise summary of the SACE contract architecture and oracle reliability assurance.  
+  This provides investors, stakeholders, and traders with a quick understanding of how the system maintains trustworthy exchange rates.
+- Internal documentation cleaned and standardized to reflect the verified contract addresses:
+  - **SACE Proxy:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`
+  - **SACE Implementation:** `0x7E1633443a50866847C92A580FbD9c531107061b`
+  - **SACE Oracle Registry:** `0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480`
+
+#### Technical Notes
+- SACE Proxy is now fully operational and mapped to the verified implementation address on BNB Smart Chain.  
+- The **SACE Oracle Registry** feeds live rates from trusted external sources and Chainlink,  
+  ensuring that all hybrid (Tier 2) currency values remain current and verifiable.  
+- Verification workflows streamlined for future deployment consistency.
+
+#### Significance
+This release represents a major step toward **full transparency, investor confidence, and ecosystem trust**.  
+It bridges the technical depth of SACE’s on-chain architecture with public understanding,  
+demonstrating a strong commitment to verifiable data integrity, financial accuracy, and cross-border currency transparency.
+
+---
+
 [v1.0.7] – 2025-10-28
 
 - Updated social media announcement for SACE to include direct link to [Simon Kapenda's LinkedIn](https://linkedin.com/in/simonkapenda).
