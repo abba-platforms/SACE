@@ -8,6 +8,17 @@
 
 ---
 
+## [v1.0.9] - 2025-11-04
+
+### Added
+- **SACE_PROJECT_INDEPENDENT_REVIEW.md**: Independent financial and strategic review of SACE, including market potential, tokenization strategy, FDV valuation ($2.3 trillion USD), and funding plan for AfrailX without external borrowing.
+- Updated README with a short summary of the independent review for investors, stakeholders, and traders.
+
+### Release
+- New release **v1.0.9** created to include the independent review and project updates.
+
+---
+
 ## [v1.0.8] - 2025-11-02  
 ### Comprehensive Documentation and Oracle Transparency Update for SACE Contracts
 
