@@ -139,6 +139,12 @@ For full details on **tokenomics, IEO framework, distribution, utility, and gove
 
 ---
 
+## 🧾 Independent Financial Review  
+An independent analytical report, modeled after McKinsey & Company and PwC standards, provides an in-depth financial and strategic evaluation of the Synthetic African Currency Exchange (SACE). The review explains the foundation of SACE’s $2.3 trillion USD FDV, linking it to Africa’s aggregated GDP and its role as the world’s first pan-African synthetic currency exchange.  
+See full report: [SACE_PROJECT_INDEPENDENT_REVIEW.md](./SACE_PROJECT_INDEPENDENT_REVIEW.md)
+
+---
+
 ## Technical Overview
 
 SACE uses **OpenZeppelin’s Upgradeable BEP-20 implementation** with the UUPS upgrade pattern and integrates **Chainlink Oracles** for real-time currency rate feeds.  
