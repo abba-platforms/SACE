@@ -8,6 +8,20 @@
 
 ---
 
+## [v1.1.0] - 2025-11-10
+### Added
+- **Treasury & Growth Fund Allocation:** Introduced a new section detailing the allocation of **17.5 billion SACE** (estimated at **$402.5 billion USD**) to the **SACE Treasury and Ecosystem Growth Fund**.  
+- The fund is dedicated to financing and deploying **AfrailX smart-rail infrastructure systems** across Africa, supporting regional integration and sustainable mobility through blockchain innovation.
+
+### Updated
+- Enhanced **Tokenomics Summary** for clarity and consistency with current ecosystem and IEO structure.
+- Improved financial representation to better align with total ecosystem valuation of **$2.3 trillion USD**.
+
+### Version Note
+This release refines SACE’s on-chain economic model documentation and strengthens its alignment with real-world infrastructure funding goals.
+
+---
+
 ## [v1.0.9] - 2025-11-04
 
 ### Added
