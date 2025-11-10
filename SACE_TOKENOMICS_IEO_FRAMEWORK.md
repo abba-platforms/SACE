@@ -16,8 +16,9 @@ By consolidating Africa’s top 21 currencies into one synthetic index, SACE cre
 - **Standard:** BEP-20 (Upgradeable Proxy / ERC20Upgradeable)  
 - **Total Max Supply:** 100,000,000,000 (100 Billion SACE)  
 - **Initial Exchange Offering (IEO) Allocation:** 2,500,000,000 (2.5 Billion SACE)  
-- **Token Price:** $23 per SACE  
+- **Token Price:** $23 USD per SACE  
 - **Ecosystem Valuation:** $2.3 Trillion USD  
+- **Treasury & Growth Fund Allocation:** 17,500,000,000 (17.5 Billion SACE) estimated at $402,500,000,000 USD allocated to the SACE Treasury and Ecosystem Growth Fund, dedicated to financing and deploying **AfrailX smart-rail infrastructure systems** across Africa to advance regional integration and sustainable mobility through blockchain innovation.
 
 ---
 
