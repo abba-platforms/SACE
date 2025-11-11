@@ -127,6 +127,17 @@ For a full in-depth analysis, valuation breakdown, and long-term growth projecti
 
 ---
 
+## Benchmarking
+
+SACE is benchmarked against the U.S. Dollar Index (DXY) rather than a single U.S. Dollar.  
+This pairing anchors SACE’s value to the real-world strength of the U.S. Dollar relative to a basket of major global currencies — **EUR, JPY, GBP, CAD, SEK, and CHF**.  
+
+Through its on-chain, upgradeable **UUPS architecture**, SACE integrates **DXY price feeds** from trusted oracles to ensure transparency, macroeconomic stability, and alignment with global market movements.  
+
+For a complete technical breakdown, see the [SACE_BENCHMARK.md](SACE_BENCHMARK.md) document in this repository.
+
+---
+
 ## SACE Tokenomics & IEO
 
 The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a weighted basket of Africa’s top 21 currencies, collectively valued at **$2.3 trillion USD**. SACE offers a unified, tradable benchmark for Africa’s currency strength, enhances market efficiency, and facilitates cross-border trade.  
