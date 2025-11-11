@@ -8,6 +8,22 @@
 
 ---
 
+## [v1.1.0] - 2025-11-11
+### Added
+- **SACE_BENCHMARK.md** — Introduced a detailed analysis and documentation explaining how SACE is benchmarked against the U.S. Dollar Index (DXY) instead of a single U.S. Dollar.  
+  - Describes the use of on-chain, upgradeable UUPS architecture to integrate DXY price feeds from trusted oracles.  
+  - Provides real-world reference modeling for macroeconomic alignment between SACE and the DXY basket (EUR, JPY, GBP, CAD, SEK, CHF).  
+  - Includes detailed examples and calculation ratios to illustrate SACE-to-DXY pairing dynamics.  
+
+### Updated
+- Repository documentation improved to reflect SACE’s data-driven valuation model and benchmark methodology.  
+- README updated with summary of the independent review and benchmarking linkage to DXY.
+
+### Summary
+This release formalizes SACE’s macroeconomic benchmarking structure, ensuring the token’s value is transparently aligned with global currency strength while maintaining Africa-centric representation through its synthetic basket of 21 national currencies.
+
+---
+
 ## [v1.1.0] - 2025-11-10
 ### Added
 - **Treasury & Growth Fund Allocation:** Introduced a new section detailing the allocation of **17.5 billion SACE** (estimated at **$402.5 billion USD**) to the **SACE Treasury and Ecosystem Growth Fund**.  
