@@ -32,8 +32,8 @@ SACE employs a three-contract core architecture to ensure decentralization, veri
 | Contract | Address | Description |
 |-----------|----------|-------------|
 | **SACE Proxy Main** | `0x3Bb737BFaCfA48e912014686D051D6f39c747802` | Acts as the primary contract entry point, handling user interactions and delegating execution to the implementation contract. |
-| **SACE Implementation** | `0x7E1633443a50866847C92A580FbD9c531107061b` | The underlying logic contract that defines SACE’s functionality — including token management, oracle registry integration, and synthetic asset operations. |
-| **SACE Oracle Proxy** | `0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480` | Responsible for fetching and updating price feeds, connecting Tier 1 (on-chain Chainlink) and Tier 2 (hybrid) currencies. |
+| **SACE Implementation** | `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a` | The underlying logic contract that defines SACE’s functionality — including token management, oracle registry integration, and synthetic asset operations. |
+| **SACE Oracle Proxy** | `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122` | Responsible for fetching and updating price feeds, benchmarking SACE to DXY, connecting Tier 1 (on-chain Chainlink) and Tier 2 (hybrid) currencies. |
 
 This modular design ensures security through the UUPS (Universal Upgradeable Proxy Standard) model, enabling upgradeability without compromising contract immutability on BscScan.
 
