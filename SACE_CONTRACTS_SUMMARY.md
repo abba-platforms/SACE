@@ -5,7 +5,7 @@ This document provides a clear explanation of the main SACE contracts deployed o
 ---
 
 ## 1. SACE Proxy Contract
-Address: 0x3Bb737BFaCfA48e912014686D051D6f39c747802
+Address: '0x3Bb737BFaCfA48e912014686D051D6f39c747802'
 
 - Role: This is the main contract that users interact with when using SACE. It handles trading, minting, and burning of synthetic assets.  
 - Proxy Pattern: The SACE Proxy does not contain the core logic itself. Instead, it delegates all operations to the Implementation Contract.  
@@ -14,8 +14,8 @@ Address: 0x3Bb737BFaCfA48e912014686D051D6f39c747802
 
 ---
 
-## 2. SACE Implementation Contract
-Address: 0x7E1633443a50866847C92A580FbD9c531107061b
+## 2. SACE Implementation Contract (Verified)
+Address: '0xAA1b92910370853E0E97E63670ef7B0d072cBF3a'
 
 - Role: This is the “brain” of SACE. All trading, price calculations, and core logic reside here.  
 - Interaction: The Proxy contract forwards all calls to this Implementation. This separation allows upgrades without affecting user balances or historical transactions.  
@@ -25,10 +25,11 @@ Address: 0x7E1633443a50866847C92A580FbD9c531107061b
 ---
 
 ## 3. SACE Oracle Registry Proxy
-Address: 0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480
+Address: '0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122'
 
 - Role: This contract stores price feeds for all currencies supported on SACE. It acts as the official source for synthetic asset valuations.  
-- Hybrid System:  
+- Hybrid System:   
+  - Benchmarks SACE to DXY     
   - Tier 1 currencies (like ZAR) use Chainlink price feeds for reliable, decentralized pricing.  
   - Tier 2 currencies use a **hybrid on-chain model**. Instead of manual input, SACE runs an automated feed system that continuously retrieves and validates prices from multiple trusted global sources such as **XE**, **OANDA**, **Bloomberg**, and **Open Exchange Rates** APIs. These prices are aggregated, normalized, and posted on-chain through verifiable transactions signed by authorized feed operators.  
   - This ensures that Tier 2 prices remain accurate and transparent even in regions where Chainlink does not yet provide direct feeds. Every price update emits an event visible on-chain, meaning any investor, trader, or auditor can independently track and verify all feed changes in real time.  
@@ -74,9 +75,9 @@ If a bug is found, a non-upgradeable contract would require redeploying everythi
 
 ## Addresses (for public reference)
 
-- SACE Proxy (user-facing): 0x3Bb737BFaCfA48e912014686D051D6f39c747802  
-- SACE Implementation: 0x7E1633443a50866847C92A580FbD9c531107061b  
-- SACE Oracle Proxy: 0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480
+- SACE Proxy (user-facing): '0x3Bb737BFaCfA48e912014686D051D6f39c747802'  
+- SACE Implementation: '0xAA1b92910370853E0E97E63670ef7B0d072cBF3a'  
+- SACE Oracle Proxy: '0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122'
 
 ---
 
