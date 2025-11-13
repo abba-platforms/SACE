@@ -211,4 +211,4 @@ The SACE Price Feed System now fully supports DXY benchmarking with a hybrid pri
 - Architecture supports future upgrades without breaking existing proxy
 - SACE positioned as a **globally aware, resilient token**, adaptable to currency fluctuations and macroeconomic trends
 
-## Contract Architect By: Simon Kapenda, SACE Creator
+### Contract Architect By: Simon Kapenda, SACE Creator
