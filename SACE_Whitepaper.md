@@ -21,8 +21,9 @@ Upon the debut of SACE’s Initial Exchange Offering (IEO), SACE is projected to
 **Token Name:** Synthetic African Currency Exchange (SACE)  
 **Symbol:** SACE  
 **Network:** BEP-20 (BNB Smart Chain)  
-**Main Contract Address (Proxy):** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
-**Verified Implementation Address:** `0x7E1633443a50866847C92A580FbD9c531107061b`  
+**SACE Proxy (Main):** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
+**SACE Implementation (Verified):** `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`  
+**SACE Oracle Proxy:** `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`  
 **GitHub Repo:** [https://github.com/abba-platforms/SACE](https://github.com/abba-platforms/SACE)  
 
 ---
