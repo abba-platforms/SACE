@@ -32,6 +32,14 @@ SACE provides a unified benchmark for Africa’s collective currency strength, e
 
 ---
 
+## SACE IEO Listing Framework
+
+SACE has chosen to conduct its first Initial Exchange Offering (IEO) on P2B Exchange. This IEO will begin with 300 million SACE tokens, priced at $23 USD per token, based on the weighted basket of Africa's top 21 performing national currencies (combined gross value: $2.3 trillion USD).
+
+For full details, see the [SACE IEO Listing Framework](./SACE_FIRST_IEO.md).
+
+---
+
 ## Executive Summary 
 
 The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing national currencies**, collectively valued at more than **$2.3 trillion USD**. Inspired by benchmarks such as the **Dow Jones Industrial Average (DJIA)**, **S&P 500**, **NASDAQ 100**, and the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
