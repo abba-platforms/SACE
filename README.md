@@ -24,8 +24,8 @@ SACE represents a **weighted basket of Africa’s top 21 performing national cur
 **Deployment Details:**
 - **Network:** BNB Smart Chain (Mainnet) — Main     
 - **Proxy Verified Contract Address:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
-- **Implementation Verified Contract Address:** `0x7E1633443a50866847C92A580FbD9c531107061b`
-- **SACE Oracle Registry:** `0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480`
+- **Implementation Verified Contract Address:** `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`
+- **SACE Oracle Registry:** `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`
 - **Standard:** BEP-20 (Upgradeable Proxy via OpenZeppelin)    
 
 SACE provides a unified benchmark for Africa’s collective currency strength, enabling efficient trading, hedging, and cross-border commerce.  
@@ -104,8 +104,8 @@ The Synthetic African Currency Exchange (**SACE**) is deployed on **BNB Smart Ch
 
 **Core Contracts:**
 - **SACE Proxy (Main Contract):** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
-- **SACE Implementation:** `0x7E1633443a50866847C92A580FbD9c531107061b`  
-- **SACE Oracle Registry:** `0x03233fb8cf478Fb6c3BB284bC82f1df3CA39d480`
+- **SACE Implementation:** `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`  
+- **SACE Oracle Registry:** `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`
 
 SACE uses a **hybrid oracle system** combining **Chainlink’s on-chain data feeds** (for major currencies like ZAR) and **SACE’s Hybrid Feeds** (for other African currencies). The Hybrid Feeds aggregate real-time market data from sources such as **OANDA, XE, and Investing.com**, which are validated and published on-chain every hour. This ensures accurate, transparent, and verifiable price updates — all visible on **BscScan**.
 
@@ -113,6 +113,14 @@ The upgradeable UUPS Proxy model allows the SACE protocol to evolve without chan
 
 📄 **Full technical explanation and interaction diagram:**  
 See [SACE_CONTRACTS_SUMMARY.md](./SACE_CONTRACTS_SUMMARY.md)
+
+---
+
+## SACE Price Feed System
+
+The **SACE Price Feed System** provides reliable and upgradeable price feeds for SACE and related assets, using a UUPS proxy architecture that supports both Chainlink and hybrid feed types.  
+
+For full details, architecture diagrams, and currency feed structure, see [SACE_CONTRACT_FLOW.md](SACE_CONTRACT_FLOW.md).
 
 ---
 
