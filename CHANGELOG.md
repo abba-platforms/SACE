@@ -1,10 +1,20 @@
 # CHANGELOG
 
+All notable changes to Synthetic Africa Currency Exchange (SACE) are documented in this file.  
+This includes releases, upgrades, and important updates to the tokenomics and related frameworks.
+
 **Project:** Synthetic Africa Currency Exchange (SACE)  
 **Author:** Simon Kapenda  
 **Organization:** Abba Platforms Inc.  
 **License:** MIT  
 **Start Date:** October 6, 2025
+
+---
+
+## [v1.2.0] - 2025-11-13
+### Added
+- First Initial Exchange Offering (IEO) framework for SACE on P2B Exchange (300 million SACE tokens at $23 USD per token).  
+- README.md updated with a summary and backlink to the SACE IEO Listing Framework.
 
 ---
 
