@@ -8,6 +8,43 @@
 
 ---
 
+## [v1.2.0] - 2025-11-13
+
+### Summary
+This version delivers major updates across the SACE Oracle architecture, deployment verification, and documentation.  
+It finalizes the transition to the **SACE Price Feed System**, with improved clarity, consistency, and verified smart contract references on BSC.
+
+### Added
+- **SACE_CONTRACT_FLOW.md**  
+  - Introduced full ASCII architecture diagram describing the SACE Oracle Proxy → Registry → Multi-tier feed flow.  
+  - Provides detailed explanation of the system’s data flow, components, and upgradeability design.
+
+### Changed
+- **Contract Verification & Deployment**
+  - Successfully deployed new **SACE Oracle Proxy (UUPS)** and **SACEOracleRegistry** contracts on BSC.
+  - Verified implementation `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a` on BSCScan.
+  - Investigated verification mismatch and ensured correct linkage for the active proxy `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`.
+
+- **Contract Source Update**
+  - Renamed `SACEOracleRegistry_flat.sol` → `SACEOracleRegistry.sol` to align with the new architecture.
+  - Refactored and upgraded contract logic for multi-tier data aggregation and improved modularity.
+
+- **Documentation**
+  - Updated:
+    - `README.md` – Added concise summary of the SACE Price Feed System with backlink to the detailed flow.
+    - `SACE_PROJECT_INDEPENDENT_REVIEW.md` – Refreshed contract addresses and technical references.
+    - `SACE_CONTRACTS_SUMMARY.md` – Updated contract deployment addresses and network details.
+  - Improved clarity in commit message formatting for consistency across all repositories.
+
+### Version Bump
+- Release incremented from **v1.1.0 → v1.2.0**.
+
+### Notes
+This release finalizes all registry upgrades and verification cleanups needed to prepare for audit and upcoming integration testing.  
+It establishes a stable, verifiable baseline for all SACE smart contracts on BSC.
+
+---
+
 ## [v1.1.0] - 2025-11-11
 ### Added
 - **SACE_BENCHMARK.md** — Introduced a detailed analysis and documentation explaining how SACE is benchmarked against the U.S. Dollar Index (DXY) instead of a single U.S. Dollar.  
