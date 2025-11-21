@@ -27,13 +27,14 @@ SACE addresses this structural fragmentation through an integrated digital syste
 
 ## 3. Technical Architecture Overview
 
-SACE employs a three-contract core architecture to ensure decentralization, verifiability, and security:
+SACE employs a four-contract core architecture to ensure decentralization, verifiability, and security:
 
 | Contract | Address | Description |
 |-----------|----------|-------------|
-| **SACE Proxy Main** | `0x3Bb737BFaCfA48e912014686D051D6f39c747802` | Acts as the primary contract entry point, handling user interactions and delegating execution to the implementation contract. |
-| **SACE Implementation** | `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a` | The underlying logic contract that defines SACE’s functionality — including token management, oracle registry integration, and synthetic asset operations. |
-| **SACE Oracle Proxy** | `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122` | Responsible for fetching and updating price feeds, benchmarking SACE to DXY, connecting Tier 1 (on-chain Chainlink) and Tier 2 (hybrid) currencies. |
+| **SACE Proxy Main** | `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73` | Acts as the primary contract entry point, handling user interactions and delegating execution to the implementation contract. |
+| **SACE Implementation** | `0xf84D3BA755a5c8FBffb2776948F61676552f39bB` | The underlying logic contract that defines SACE’s functionality — including token management, oracle registry integration, and synthetic asset operations. |
+| **SACE Oracle Proxy** | `0x96DCdC8C5A5C2B2Fdb5CB1C882234311b2dc797d` | Responsible for fetching and updating price feeds, benchmarking SACE to DXY, connecting Tier 1 (on-chain Chainlink) and Tier 2 (hybrid) currencies. |
+| **SACE Price Updater** | `0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc` | Automates Tier 2 FX price submission into the Oracle Registry, ensures event logging and audit trails. |
 
 This modular design ensures security through the UUPS (Universal Upgradeable Proxy Standard) model, enabling upgradeability without compromising contract immutability on BscScan.
 
