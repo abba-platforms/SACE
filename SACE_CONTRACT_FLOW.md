@@ -5,23 +5,24 @@ This document details the architecture and flow of the SACE Oracle system, which
 
 ## Components
 
-1. **SACE Token Proxy**
-   - Address: `0x3Bb737BFaCfA48e912014686D051D6f39c747802`
+1. **SACE Main (Proxy)**
+   - Address: `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`
    - Type: Transparent proxy for the SACE token
    - Function: Public-facing token contract; forwards calls to SACE Implementation
 
 2. **SACE Implementation**
-   - Address: `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`
+   - Address: `0xf84D3BA755a5c8FBffb2776948F61676552f39bB`
    - Function: Contains all token logic
    - Verified on BSCScan: [Link](https://bscscan.com/address/0xAA1b92910370853E0E97E63670ef7B0d072cBF3a#code)
 
-3. **SACE Oracle Proxy**
-   - Address: `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`
+3. **SACE Oracle Registry**
+   - Address: `0x96DCdC8C5A5C2B2Fdb5CB1C882234311b2dc797d`
    - Type: UUPS Proxy
    - Function: Points to SACE Implementation for price feed logic
    - Note: Previously pointed to old implementation `0x0671F26539A1aCA85530c67bc9bC4706cbF1A87c`
 
-4. **SACEOracleRegistry.sol**
+4. **SACE Price Updater**
+   - Address: `0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc`
    - Provides price feeds for Tier 1 and Tier 2 currencies
    - Uses Chainlink feeds for DXY and ZAR
    - Supports hybrid prices for other currencies
@@ -32,7 +33,6 @@ This document details the architecture and flow of the SACE Oracle system, which
 ### Tier 1
 - ZAR (Chainlink feed)
 - DXY (Chainlink feed)
-- NADD (Hybrid feed)
 
 ### Tier 2
 - TND, LYD, MAD, GHS, BWP, SCR, ERN, NAD, SZL, LSL, STN, ZMW, MRU, EGP, DZD, MUR, XOF, XAF, KES, RWF
@@ -58,52 +58,58 @@ This document details the architecture and flow of the SACE Oracle system, which
 ## Contract Storage & Architecture
 
 ```
-+---------------------+
-|   SACE Token Proxy   |
-|  (UUPS Proxy)       |
-+---------+-----------+
-          |
-          v
-+---------------------+
-|  SACE Implementation |
-|  (Token Logic)       |
-+---------------------+
-          ^
-          |
-+---------------------+
-| SACE Oracle Proxy    |
-|  (UUPS Proxy)        |
-+---------+-----------+
-          |
-          v
-+---------------------+
-| SACEOracleRegistry   |
-| - Feeds (CHAINLINK,  |
-|   HYBRID)           |
-| - Feed Weights      |
-| - Currency Mappings |
-+---------------------+
++-------------------------------+
+|        SACE Proxy             |
+|        (UUPS Proxy)           |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|     SACE Implementation       |
+|   (Token & Trading Logic)     |
++-------------------------------+
+                ^
+                |
++-------------------------------+
+|  SACE Oracle Registry Proxy   |
+|        (UUPS Proxy)           |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|     SACE Oracle Registry      |
+| - Feeds (CHAINLINK, HYBRID)   |
+| - Feed Weights                |
+| - Currency Mappings           |
++-------------------------------+
+                |
+                v
++-------------------------------+
+|      SACE Price Updater       |
+| - Automates Tier 2 FX prices  |
+| - Event logging & audit trail |
++-------------------------------+
 ```
+
 ---
 
 ## Flow Description
 
 1. **Deployment & Proxy Setup**
-   - `SACEOracleRegistry.sol` deployed as an upgradeable UUPS contract.
-   - Proxy points directly to SACE Implementation (`0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`).
+   - `SACE Oracle Registry` deployed as an upgradeable UUPS contract.
+   - Proxy points to SACE Implementation (`0xf84D3BA755a5c8FBffb2776948F61676552f39bB`).
 
 2. **Price Feed Initialization**
    - Tier 1: ZAR → Chainlink feed
-   - Tier 2: 20 other African currencies → Hybrid feed (manual updates)
+   - Tier 2: 20 other African currencies → Hybrid feed (automated via Price Updater)
    - DXY → Chainlink feed
-   - NADD → Hybrid feed
 
 3. **Hybrid Price Update**
-   - Admin can update tier 2 currency prices manually.
+   - Price Updater submits automated updates for Tier 2 currencies.
+   - Authorized operators only.
    - Events emitted:
      - `HybridPriceUpdated`
      - `BatchHybridPriceUpdated`
-     - `NADDPriceUpdated`
 
 4. **SACE Benchmarking**
    - SACE token price is calculated relative to DXY.
@@ -112,6 +118,11 @@ This document details the architecture and flow of the SACE Oracle system, which
 5. **Upgradeable Logic**
    - UUPS proxy enables future upgrades without changing proxy addresses.
    - `_authorizeUpgrade` ensures only owner can upgrade logic contract.
+
+6. **Transparency & Auditability**
+   - All Price Updater events are on-chain and visible.
+   - Oracle Registry logs all updates from Price Updater.
+   - Tier 1 Chainlink feeds and Tier 2 hybrid feeds are verifiable by auditors and traders.
 
 ---
 
@@ -128,10 +139,10 @@ This document details the architecture and flow of the SACE Oracle system, which
 
 | Component                  | Address                                                        | Notes                                                   |
 |----------------------------|----------------------------------------------------------------|---------------------------------------------------------|
-| SACE Token Proxy           | 0x3Bb737BFaCfA48e912014686D051D6f39c747802                     | Public-facing token proxy                                |
-| SACE Implementation        | 0xAA1b92910370853E0E97E63670ef7B0d072cBF3a                     | Holds all token logic                                    |
-| SACE Oracle Proxy          | 0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122                     | Points to SACE Implementation                            |
-| Old Oracle Implementation  | 0x0671F26539A1aCA85530c67bc9bC4706cbF1A87c                     | Deprecated                                              |
+| SACE Proxy (Main)           | 0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73                     | Public-facing token proxy                                |
+| SACE Implementation        | 0xf84D3BA755a5c8FBffb2776948F61676552f39bB                     | Holds all token logic                                    |
+| SACE Oracle Proxy          | 0x96DCdC8C5A5C2B2Fdb5CB1C882234311b2dc797d                     | Intergrated with SACE Implementation                            |
+| SACE Price Updater  | 0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc                     | Integrated with SACE Implementation                                              |
 
 ---
 
@@ -183,7 +194,7 @@ This document details the architecture and flow of the SACE Oracle system, which
              |
              v
 +---------------------------+
-|    SACEOracleRegistry     |
+|    SACE Oracle Registry   |
 |   (Implements DXY & other |
 |      currency feeds)      |
 +------------+--------------+
@@ -197,13 +208,22 @@ This document details the architecture and flow of the SACE Oracle system, which
 +---------------------------+
 |    Tier 2: Hybrid Feeds   |
 |  TND, LYD, MAD, ...       |
++------------+--------------+
+             |
+             v
++---------------------------+
+|     SACE Price Updater    |
+| - Automates submission of |
+|   Tier 2 prices to Oracle |
 +---------------------------+
              |
+             v
 +---------------------------+
-|        NADD (Hybrid)      |
+|    SACE Implementation    |
+|  (Reads all price feeds   |
+|   for trading & valuation)|
 +---------------------------+
 ```
----
 
 ### Conclusion
 The SACE Price Feed System now fully supports DXY benchmarking with a hybrid price feed architecture. All proxies are correctly pointing to the current SACE Implementation, and the upgradeable design ensures seamless future upgrades.
