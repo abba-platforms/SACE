@@ -7,19 +7,20 @@
 
 # Synthetic African Currency Exchange (SACE)
 
+**Token:** SACE Index     
 **Ticker:** SACE  
 **Token Type:** BEP-20 Upgradeable  
 **Total Supply:** 100,000,000,000 SACE  
-**Creator:** Simon Kapenda  
-**Version:** 1.0  
-**Date:** October 6, 2025  
+**Creator:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)       
+**Version:** 1.1  
+**Date:** October 6, 2025    
+**Updated:** November 21, 2025
 
 ---
 
 ### 🚀 Mainnet Deployment
 
-The **Synthetic African Currency Exchange (SACE)** smart contract has been successfully deployed to the **BNB Smart Chain (Mainnet)**.  
-SACE represents a **weighted basket of Africa’s top 21 performing national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**the SACE Index**.
+The **Synthetic African Currency Exchange (SACE)** smart contract has been successfully deployed to the **BNB Smart Chain (Mainnet)**. SACE represents a **weighted basket of Africa’s top 21 performing national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**the SACE Index**— and benchmarked directly to the **U.S. Dollar Index (DXY)**.
 
 **Deployment Details:**
 - **Network:** BNB Smart Chain (Mainnet)     
@@ -45,7 +46,9 @@ For full details, see the [SACE IEO Listing Framework](./SACE_FIRST_IEO.md).
 
 The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing national currencies**, collectively valued at more than **$2.3 trillion USD**. Benchmarked directly to the U.S. Dollar Index (DXY), SACE is inspired by global benchmarks such as the **Dow Jones Industrial Average (DJIA)**, **S&P 500**, **NASDAQ 100**, and the **DXY**. It provides a unified, tradable instrument enabling investors, institutions, and policymakers to track and trade Africa’s collective currency strength through a single token: **the SACE Index**.  
 
-SACE consolidates Africa’s top 21 currencies into a single tradable instrument, creating a transparent benchmark for the continent’s currency performance. It enhances market efficiency, improves liquidity, enables effective hedging against currency volatility, and facilitates cross-border trade — positioning SACE as a foundational economic tool for Africa’s growing financial ecosystem.  
+SACE consolidates Africa’s top 21 currencies into a single tradable instrument, creating a transparent benchmark for the continent’s currency performance. It enhances market efficiency, improves liquidity, enables effective hedging against currency volatility, and facilitates cross-border trade — positioning SACE as a foundational economic tool for Africa’s growing financial ecosystem.
+
+Additionally, the **SACE Index is benchmarked directly to the U.S. Dollar Index (DXY)**, ensuring that its valuation aligns with globally recognized macroeconomic standards. This integration provides greater stability, reduces single-currency dependency, and enhances international investor confidence by anchoring SACE to a diversified basket of major world currencies rather than a single USD peg.
 
 SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of **CillarCoin (CILLAR)** — a utility token — and **Namibia Digital Dollar (NADD)**, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar. Together, **SACE**, **CILLAR**, and **NADD** form the foundation of Abba Platforms’ digital asset ecosystem — advancing Africa’s financial inclusion, liquidity, and cross-border economic integration through blockchain innovation.
 
@@ -56,12 +59,13 @@ SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapen
 The **Synthetic African Currency Exchange (SACE)** Whitepaper provides a complete overview of SACE as a **BEP-20 blockchain token representing a weighted basket of Africa’s top 21 performing currencies**, with a combined valuation exceeding **$2.3 trillion USD**.  
 
 Key highlights include:  
+- **Key Structural Feature:** The SACE Index is benchmarked directly to the U.S. Dollar Index (DXY).    
 - **Valuation Model:** Starting indicative value of ~$23 per SACE token based on the African currency basket.  
 - **Tokenomics:** Max supply of 100 billion SACE tokens, treasury-controlled distribution, and governance mechanisms.  
 - **Technical Overview:** Upgradeable UUPS proxy, Chainlink oracle integration, deviation protection, and transparent events.  
 - **Economic Impact:** Facilitates cross-border trade, improves liquidity, provides hedging against currency volatility, and serves as a benchmark for Africa’s macroeconomic performance.  
 - **Governance:** Multi-sig treasury, timelocks, and basket rebalancing mechanisms for secure, community-driven upgrades.  
-- **Strategic Insight:** Tracks Africa’s currency performance similarly to DJIA, S&P 500, and NASDAQ 100 for the U.S. market.  
+- **Strategic Insight:** Tracks Africa’s top currency performance similarly to DJIA, S&P 500, and NASDAQ 100 for the U.S. market.  
 
 For the **full Whitepaper**, visit: [SACE_Whitepaper.md](./SACE_Whitepaper.md)
 
