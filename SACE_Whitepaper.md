@@ -1,29 +1,38 @@
 # Synthetic African Currency Exchange (SACE) — Whitepaper
 
+**Token:** SACE Index  
 **Ticker:** SACE  
 **Creator:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)   
-**Version:** 1.2  
-**Date:** October 6, 2025 (Revised: October 28, 2025)  
+**Version:** 1.4  
+**Date:** November 21, 2025  
 
 ---
 
 ## 1. Executive Summary
 
-The **Synthetic African Currency Exchange (SACE)** represents a groundbreaking blockchain-native financial innovation designed to unify and track the collective strength of Africa’s top-performing national currencies. Modeled on the principles of the **U.S. Dollar Index (DXY)**, **S&P 500**, **Dow Jones Industrial Averages (DJIA)**, and **NASDAQ 100**, SACE serves as a synthetic benchmark that reflects and tracks Africa’s macroeconomic performance within a transparent, tradable, and algorithmically balanced digital asset.
+The **Synthetic African Currency Exchange (SACE Index)** represents a groundbreaking blockchain-native financial innovation designed to unify and track the collective strength of **Africa’s top 21 performing national currencies**. Modeled on the principles of the **U.S. Dollar Index (DXY)**, **S&P 500**, **Dow Jones Industrial Averages (DJIA)**, and **NASDAQ 100**, the SACE Index serves as a synthetic benchmark that reflects and tracks Africa’s macroeconomic performance within a transparent, tradable, and algorithmically balanced digital asset.
+
+A key structural feature of the SACE Index i is that it is benchmarked directly to **the U.S. Dollar Index (DXY)**. The DXY is the world's most widely used measurement of the U.S. dollar's global value, and linking SACE to the DXY provides an internationally recognized anchor. By combining the stability and global relevance of the DXY with the internal weighting of African currency data, SACE creates a new hybrid valuation system that reflects both global and regional economic realities.
+
+SACE is deployed on the **BNB Smart Chain (BEP-20)** and operates using algorithmic index calculations, decentralized price feeds, and an **on-chain Oracle Registry** to validate all incoming data. The system continuously monitors Chainlink price feeds, verifies deviation tolerances, and updates the SACE Index only when data meets strict integrity requirements. Historical pricing, transparency, and automated governance ensure that SACE maintains predictable behavior and strong auditability.
+
+The result is the first synthetic digital currency designed for Africa, engineered to be resilient, data-backed, and globally interoperable. SACE functions as a benchmark asset for African macroeconomic value, a collateral-ready instrument for decentralized finance, and a stable medium of exchange for digital commerce across African markets and beyond.
 
 Developed by **Simon Kapenda**, Founder of **Abba Platforms Inc.**, and creator of **CillarCoin (CILLAR)** and **Namibia Digital Dollar (NADD)** (Namibia’s first blockchain-native stablecoin), SACE establishes a digital bridge between Africa’s diverse currency landscape and the global market economy.
 
 By aggregating a **weighted basket of 21 African currencies**, SACE introduces a new paradigm for cross-border trade efficiency, investment exposure, and currency stability — making it the **first synthetic currency index for Africa**.
 
-Upon the debut of SACE’s Initial Exchange Offering (IEO), SACE is projected to enter the global digital economy with a **valuation exceeding $2.3 trillion USD**, positioning **Abba Platforms Inc.** among the world’s most valuable technology and fintech companies. Each of its **42 founding staff and management members** is projected to hold a net worth exceeding **$230 million USD**, making them among the wealthiest individuals across Africa and the United States.
+Upon the debut of SACE’s Initial Exchange Offering (IEO), SACE is projected to enter the global digital economy with a **valuation exceeding $2.3 trillion USD**, positioning **Abba Platforms Inc.** among the world’s most valuable technology and fintech companies. Each of its **42 founding staff and management members** is projected to hold a net worth exceeding **$230 million USD**, making them among the wealthiest individuals across Africa, the United States, and beyond.
 
 ### Basic Project Information
-**Token Name:** Synthetic African Currency Exchange (SACE)  
+**Token Name:** SACE Index  
 **Symbol:** SACE  
 **Network:** BEP-20 (BNB Smart Chain)  
-**SACE Proxy (Main):** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
-**SACE Implementation (Verified):** `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`  
-**SACE Oracle Proxy:** `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`  
+**SACE Proxy (Main):** `0x5D1B7B3fEf0C48bB9a11068E5D12f0d90B7eF8c2`  
+**SACE Implementation (Verified):** `0xf84D3BA755a5c8FBffb2776948F61676552f39bB`  
+**SACE Oracle Registry:** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`  
+**SACE Price Updater:** `0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc`  
+**Official Website:** [https://sacex.io](https://sacex.io)  
 **GitHub Repo:** [https://github.com/abba-platforms/SACE](https://github.com/abba-platforms/SACE)  
 
 ---
@@ -53,7 +62,7 @@ Africa is home to **54 countries with over 40 active currencies**, each with uni
 
 ## 4. SACE Currency Basket
 
-As of **September 25, 2025**, SACE’s initial basket includes:
+As of **October 2025**, SACE’s initial basket includes:
 
 | #  | Currency                                      |
 |----|-----------------------------------------------|
@@ -83,7 +92,7 @@ As of **September 25, 2025**, SACE’s initial basket includes:
 
 ## 5. Tokenomics
 
-- **Token Name:** Smart African Currency Exchange  
+- **Token Name:** Synthetic African Currency Exchange  
 - **Ticker:** SACE  
 - **Total Supply:** 100,000,000,000 SACE  
 - **Decimals:** 18  
@@ -157,98 +166,118 @@ It provides a transparent benchmark for traders and investors — allowing SACE 
 
 ---
 
-### Market Cap and Index Valuation
+### SACE-to-DXY Benchmark Calculation Example
 
-- **Basket Combined Value:** $2.3 trillion USD  
-- **Max Supply:** 100,000,000,000 SACE  
-- **Starting Price per Token:** $23 USD  
+**Assumptions:**  
+- Basket of 21 African currencies  
+- Each currency normalized to USD rate  
+- Assigned weights based on economic contribution  
 
-This gives an approximate **market capitalization** at launch of:
+| Currency | USD Rate | Weight (%) | Weighted Contribution |
+|----------|----------|------------|---------------------|
+| TND      | 0.33     | 5          | 0.0165              |
+| LYD      | 0.21     | 4          | 0.0084              |
+| MAD      | 0.11     | 5          | 0.0055              |
+| GHS      | 0.085    | 5          | 0.00425             |
+| BWP      | 0.079    | 4          | 0.00316             |
+| SCR      | 0.073    | 3          | 0.00219             |
+| ERN      | 0.055    | 3          | 0.00165             |
+| NAD      | 0.053    | 5          | 0.00265             |
+| SZL      | 0.053    | 3          | 0.00159             |
+| ZAR      | 0.053    | 6          | 0.00318             |
+| LSL      | 0.053    | 3          | 0.00159             |
+| STN      | 0.045    | 3          | 0.00135             |
+| ZMW      | 0.055    | 4          | 0.0022              |
+| MRU      | 0.027    | 2          | 0.00054             |
+| EGP      | 0.032    | 4          | 0.00128             |
+| DZD      | 0.007    | 2          | 0.00014             |
+| MUR      | 0.022    | 2          | 0.00044             |
+| XOF      | 0.0018   | 4          | 0.000072            |
+| XAF      | 0.0018   | 4          | 0.000072            |
+| KES      | 0.0068   | 5          | 0.00034             |
+| RWF      | 0.0011   | 5          | 0.000055            |
 
->100,000,000,000 SACE × $23 = $2,300,000,000,000 USD
+**Step 1: Sum all weighted contributions**  
+Total Weighted Sum = 0.05604 (normalized basket index relative to USD)
 
-This aligns SACE’s total market cap proportionally with the estimated value of the African currency basket it represents.
+**Step 2: Map to SACE token price**  
+- Target basket value: $2.3 trillion USD  
+- Max SACE supply: 100,000,000,000 tokens  
+- Price per token = Total Basket Value × Weighted Sum ÷ Max Supply  
 
----
+Price per SACE = 2,300,000,000,000 × 0.05604 ÷ 100,000,000,000 ≈ $23.0 USD
 
-### Proportional Movements Relative to USD
+**Step 3: Example Scenario**  
 
-SACE’s price is designed to reflect the performance of the African currency basket.  
-This means price movement relative to USD will follow changes in the basket’s value:
+If African currencies collectively **appreciate 5% vs USD**:  
+- New normalized sum = 0.05604 × 1.05 ≈ 0.05884  
+- Updated SACE price = 2,300,000,000,000 × 0.05884 ÷ 100,000,000,000 ≈ $24.15  
 
-- **If the basket strengthens** relative to USD → SACE price increases.  
-- **If USD strengthens** relative to the basket → SACE price decreases.  
+If African currencies collectively **depreciate 5% vs USD**:  
+- New normalized sum = 0.05604 × 0.95 ≈ 0.05324  
+- Updated SACE price ≈ $21.87  
 
-Example:  
-If African currencies collectively appreciate by 5% vs USD, SACE’s price could rise from $23 → **$24.15**.
-
-This creates a **naturally hedged asset** against USD volatility.
+This illustrates **real-time proportional adjustment**, ensuring SACE reflects the basket’s USD performance.
 
 ---
 
 ### Long-Term Performance Simulation
 
-Looking at historical growth patterns of indexes like NASDAQ 100 and S&P 500, Africa’s currency basket could similarly grow over time.
-
 | Year | Low Growth (5%) | Moderate Growth (10%) | High Growth (15%) |
-|------|-------------------|------------------------|---------------------|
-| 0    | $23.00           | $23.00                 | $23.00             |
-| 1    | $24.15           | $25.30                 | $26.45             |
-| 2    | $25.36           | $27.83                 | $30.42             |
-| 3    | $26.63           | $30.61                 | $35.00             |
-| 4    | $27.96           | $33.67                 | $40.25             |
-| 5    | $29.36           | $37.04                 | $46.29             |
-| 6    | $30.83           | $40.74                 | $53.23             |
-| 7    | $32.37           | $44.81                 | $61.21             |
-| 8    | $34.00           | $49.29                 | $70.39             |
-| 9    | $35.70           | $54.22                 | $80.95             |
-| 10   | $37.49           | $59.64                 | $93.10             |
-
-**Interpretation:**  
-- **Low growth (5%)** → $37.49 after 10 years (+63%).  
-- **Moderate growth (10%)** → $59.64 after 10 years (+159%).  
-- **High growth (15%)** → $93.10 after 10 years (+305%).  
-
-These scenarios suggest SACE could follow a sustained upward trajectory akin to major global indexes, driven by Africa’s economic growth and adoption of SACE.
+|------|----------------|---------------------|-----------------|
+| 0    | $23.00         | $23.00              | $23.00          |
+| 1    | $24.15         | $25.30              | $26.45          |
+| 2    | $25.36         | $27.83              | $30.42          |
+| 3    | $26.63         | $30.61              | $35.00          |
+| 4    | $27.96         | $33.67              | $40.25          |
+| 5    | $29.36         | $37.04              | $46.29          |
+| 6    | $30.83         | $40.74              | $53.23          |
+| 7    | $32.37         | $44.81              | $61.21          |
+| 8    | $34.00         | $49.29              | $70.39          |
+| 9    | $35.70         | $54.22              | $80.95          |
+| 10   | $37.49         | $59.64              | $93.10          |
 
 ---
 
-### Strategic Insight
+## 12. Oracle Feed Deviation Handling (Appendix — ASCII Diagram)
 
-SACE is designed as a **dynamic index** and a **transparent tradable instrument** that tracks Africa’s collective currency strength.  
-Its price movement will be proportional to the basket’s performance versus USD, offering a natural hedge and exposure to Africa’s currency markets.
+```
+           +------------------------+
+           | New Chainlink Price    |
+           | Feed Received          |
+           +-----------+------------+
+                       |
+                       v
+           +-----------+------------+
+           | Compare with Last Valid |
+           | Price                   |
+           +-----------+------------+
+                       |
+        +--------------+---------------+
+        |                              |
+        v                              v
++------------------+           +------------------+
+| Within Allowed   |           | Exceeds Allowed  |
+| Deviation (<=5%) |           | Deviation (>5%)  |
++--------+---------+           +--------+---------+
+         |                              |
+         v                              v
++--------+---------+           +--------+---------+
+| Update Last      |           | Reject Feed      |
+| Valid Price      |           | Emit Warning     |
+| Emit Event       |           | Maintain Old     |
++------------------+           | Last Price       |
+                               +------------------+
+```
+       
+**Flow Explanation:**
+1. **New Price Feed:** Chainlink submits a new currency rate.  
+2. **Deviation Check:** Feed compared against last valid price.  
+3. **If within threshold (≤5% default):** Update the stored last valid price, emit an event for transparency.  
+4. **If deviation exceeds threshold:** Reject the feed, emit warning, maintain previous valid price for safety.  
+5. **Heartbeat Check:** Any feed older than 1 hour is automatically rejected to prevent stale data.  
 
-#### Key Points:
-- Starting price of $23 per SACE is **proportional to the USD value of the basket**.  
-- With 100B max supply, the total market cap is aligned with the basket’s estimated $2.3 trillion value.  
-- Price will fluctuate with the basket’s performance, offering a **hedging mechanism**.  
-- Long-term growth potential mirrors indexes like NASDAQ 100 and S&P 500, driven by African economic growth and adoption.
-
----
-
-### Reference Currencies in SACE Basket (As of October 2025)
-
-1. Tunisian Dinar (TND)  
-2. Libyan Dinar (LYD)  
-3. Moroccan Dirham (MAD)  
-4. Ghanaian Cedi (GHS)  
-5. Botswana Pula (BWP)  
-6. Seychelles Rupee (SCR)  
-7. Eritrean Nakfa (ERN)  
-8. Namibian Dollar (NAD)  
-9. Swazi Lilangeni (SZL)  
-10. South African Rand (ZAR)  
-11. Lesotho Loti (LSL)  
-12. São Tomé and Príncipe Dobra (STN)  
-13. Zambian Kwacha (ZMW)  
-14. Mauritanian Ouguiya (MRU)  
-15. Egyptian Pound (EGP)  
-16. Algerian Dinar (DZD)  
-17. Mauritian Rupee (MUR)  
-18. West African CFA Franc (XOF)  
-19. Central African CFA Franc (XAF)  
-20. Kenyan Shilling (KES)  
-21. Rwandan Franc (RWF)  
+This mechanism ensures SACE price integrity, protects against oracle manipulation, and maintains a reliable synthetic currency index.
 
 ---
 
