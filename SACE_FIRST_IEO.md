@@ -1,7 +1,7 @@
 # SACE IEO Listing Framework
 
 ## Overview
-Standard African Currency Equivalent (SACE) has successfully completed a major upgrade and is now benchmarked to the DXY Index rather than a single USD currency. This shift gives SACE a stronger, more globally diversified valuation foundation aligned with international standards while maintaining its African economic representation through its 21 top-performing national currencies.
+SACE (Synthetic African Currency Exchange) has successfully completed a major upgrade and is now benchmarked to the DXY Index rather than a single USD currency. This shift gives SACE a stronger, more globally diversified valuation foundation aligned with international standards while maintaining its African economic representation through its 21 top-performing national currencies.
 
 ## IEO Allocation
 A total of 2.5 billion SACE tokens have been allocated for the Initial Exchange Offering (IEO) phase.
