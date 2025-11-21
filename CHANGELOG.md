@@ -11,6 +11,57 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 
 ---
 
+## [v1.2.0] - 2025-11-21
+
+## Major Updates
+
+* Fully updated SACE contract suite with new deployments:
+
+  * **SACE Proxy:** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`
+  * **SACE Implementation:** `0xf84D3BA755a5c8FBffb2776948F61676552f39bB`
+  * **SACE Oracle Registry:** `0x96DCdC8C5A5C2B2Fdb5CB1C882234311b2dc797d`
+  * **SACE Price Updater:** `0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc`
+
+* Added **SACE Price Updater** across all documentation, diagrams, and architecture explanations.
+
+## Documentation Updates
+
+* Updated **README Executive Summary** to include:
+
+  * SACE Index benchmarked to **DXY (US Dollar Index)**.
+  * Clearer statement of global macroeconomic alignment.
+
+* Updated **SACE_CONTRACT_FLOW.md** and **SACE_CONTRACTS_SUMMARY.md**:
+
+  * Added new architecture diagrams.
+  * Updated all contract addresses.
+  * Integrated the Price Updater across flows and diagrams.
+
+* Updated **SACE_PROJECT_INDEPENDENT_REVIEW.md** with latest architecture table.
+
+* Updated **SACE_TOKENOMICS_IEO_FRAMEWORK.md** with latest SACE proxy address.
+
+* Updated **SACE_FIRST_IEO.md** and whitepaper:
+
+  * Added DXY benchmark explanation.
+  * SACE global positioning clarified.
+  * New hybrid price feed architecture descriptions.
+
+## Architecture & Flow Enhancements
+
+* Added full **DXY Integration Flow** with Price Updater included.
+* Rebuilt **Contract Storage & Architecture** diagram with corrected box sizes.
+* Clarified Tier 1 vs. Tier 2 pricing sources.
+* Removed deprecated NADD references per new architecture.
+
+## General Improvements
+
+* Cleaned up formatting, consistency, and terminology across files.
+* Ensured all explanations follow the new 2025 system design.
+* Committed all updates using standardized commit messages.
+
+---
+
 ## [v1.2.0] - 2025-11-13
 ### Added
 - First Initial Exchange Offering (IEO) framework for SACE on P2B Exchange (300 million SACE tokens at $23 USD per token).  
