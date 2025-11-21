@@ -73,14 +73,14 @@ This pricing ensures that SACE acts as a **transparent, market-representative be
 ---
 
 ## 7. Governance
-- Managed under **Abba Platforms Inc.**  
+- Owned by **SACE Index Ltd.** and managed under **Abba Platforms Inc.**  
 - **SASE Governance Board** supervises token policy, exchange listings, and ecosystem alignment  
 
 ---
 
 ## 8. Implementation Status
 - **Smart Contract:** Verified and deployed on **BSC Mainnet**  
-- **Proxy Address:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
+- **SACE Contract Address (Proxy):** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`  
 - **Implementation Contract:** Verified and upgradeable  
 - **Exchange Listing:** Negotiations with **KuCoin** for IEO  
 - **Public Announcement:** “SACE Mainnet Deployment — Tokenizing $2.3 Trillion in Digital Securities Infrastructure”
