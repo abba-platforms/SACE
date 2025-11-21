@@ -19,16 +19,17 @@
 ### 🚀 Mainnet Deployment
 
 The **Synthetic African Currency Exchange (SACE)** smart contract has been successfully deployed to the **BNB Smart Chain (Mainnet)**.  
-SACE represents a **weighted basket of Africa’s top 21 performing national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**SACE**.
+SACE represents a **weighted basket of Africa’s top 21 performing national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**the SACE Index**.
 
 **Deployment Details:**
-- **Network:** BNB Smart Chain (Mainnet) — Main     
-- **Proxy Verified Contract Address:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
-- **Implementation Verified Contract Address:** `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`
-- **SACE Oracle Registry:** `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`
+- **Network:** BNB Smart Chain (Mainnet)     
+- **SACE Proxy Address (Main):** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`  
+- **SACE Implementation (Verified):** `0xf84D3BA755a5c8FBffb2776948F61676552f39bB`
+- **SACE Oracle Registry:** `0x96DCdC8C5A5C2B2Fdb5CB1C882234311b2dc797d`
+- **SACE Price Updater:** `0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc`
 - **Standard:** BEP-20 (Upgradeable Proxy via OpenZeppelin)    
 
-SACE provides a unified benchmark for Africa’s collective currency strength, enabling efficient trading, hedging, and cross-border commerce.  
+SACE Index provides a unified benchmark for Africa’s collective currency strength, enabling efficient trading, hedging, and cross-border commerce.  
 
 ---
 
@@ -42,7 +43,7 @@ For full details, see the [SACE IEO Listing Framework](./SACE_FIRST_IEO.md).
 
 ## Executive Summary 
 
-The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing national currencies**, collectively valued at more than **$2.3 trillion USD**. Inspired by benchmarks such as the **Dow Jones Industrial Average (DJIA)**, **S&P 500**, **NASDAQ 100**, and the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
+The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing national currencies**, collectively valued at more than **$2.3 trillion USD**. Benchmarked directly to the U.S. Dollar Index (DXY), SACE is inspired by global benchmarks such as the **Dow Jones Industrial Average (DJIA)**, **S&P 500**, **NASDAQ 100**, and the **DXY**. It provides a unified, tradable instrument enabling investors, institutions, and policymakers to track and trade Africa’s collective currency strength through a single token: **the SACE Index**.  
 
 SACE consolidates Africa’s top 21 currencies into a single tradable instrument, creating a transparent benchmark for the continent’s currency performance. It enhances market efficiency, improves liquidity, enables effective hedging against currency volatility, and facilitates cross-border trade — positioning SACE as a foundational economic tool for Africa’s growing financial ecosystem.  
 
@@ -111,9 +112,10 @@ As of October 2025, the SACE Currency Basket Index includes the following Africa
 The Synthetic African Currency Exchange (**SACE**) is deployed on **BNB Smart Chain (Mainnet)** and operates through a verifiable, upgradeable contract architecture designed for transparency, real-time data accuracy, and investor trust.
 
 **Core Contracts:**
-- **SACE Proxy (Main Contract):** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
-- **SACE Implementation:** `0xAA1b92910370853E0E97E63670ef7B0d072cBF3a`  
-- **SACE Oracle Registry:** `0x6Ee1ec18C3629B4Dea00703286DcA3BEEE49F122`
+- **SACE Proxy (Main Contract):** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`  
+- **SACE Implementation:** `0xf84D3BA755a5c8FBffb2776948F61676552f39bB`  
+- **SACE Oracle Registry:** `0x96DCdC8C5A5C2B2Fdb5CB1C882234311b2dc797d` 
+- **SACE Price Updater:** `0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc`
 
 SACE uses a **hybrid oracle system** combining **Chainlink’s on-chain data feeds** (for major currencies like ZAR) and **SACE’s Hybrid Feeds** (for other African currencies). The Hybrid Feeds aggregate real-time market data from sources such as **OANDA, XE, and Investing.com**, which are validated and published on-chain every hour. This ensures accurate, transparent, and verifiable price updates — all visible on **BscScan**.
 
