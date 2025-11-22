@@ -13,7 +13,34 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 
 ## [v1.2.0] - 2025-11-21
 
-## Major Updates
+### Added
+
+* Added full SACE-to-DXY Benchmark Calculation section in pure raw ASCII to the Whitepaper.
+* Introduced updated price-mapping logic reflecting SACE benchmarking to the U.S. Dollar Index (DXY).
+* Included ASCII tables for the 21-currency weighted basket, USD normalization, and price adjustment scenarios.
+* Added revised Step #3 to demonstrate appreciation/depreciation under DXY-based normalization.
+
+### Improved
+
+* Refined explanatory text describing SACE parity mechanics relative to DXY.
+* Improved formatting consistency for ASCII diagrams and tables.
+* Ensured no truncation of existing Whitepaper content; only appended or replaced required sections.
+
+### Technical
+
+* Updated economic model: basket valuation now normalized against DXY movement.
+* Validated formulas for real-time proportional recalculation of SACE token price.
+* Prepared documentation for next version tagging.
+
+### Repository
+
+* Latest updates pushed to: [https://github.com/abba-platforms/SACE](https://github.com/abba-platforms/SACE)
+
+---
+
+## [v1.2.0] - 2025-11-21
+
+### Major Updates
 
 * Fully updated SACE contract suite with new deployments:
 
@@ -24,7 +51,7 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 
 * Added **SACE Price Updater** across all documentation, diagrams, and architecture explanations.
 
-## Documentation Updates
+### Documentation Updates
 
 * Updated **README Executive Summary** to include:
 
@@ -47,14 +74,14 @@ This includes releases, upgrades, and important updates to the tokenomics and re
   * SACE global positioning clarified.
   * New hybrid price feed architecture descriptions.
 
-## Architecture & Flow Enhancements
+### Architecture & Flow Enhancements
 
 * Added full **DXY Integration Flow** with Price Updater included.
 * Rebuilt **Contract Storage & Architecture** diagram with corrected box sizes.
 * Clarified Tier 1 vs. Tier 2 pricing sources.
 * Removed deprecated NADD references per new architecture.
 
-## General Improvements
+### General Improvements
 
 * Cleaned up formatting, consistency, and terminology across files.
 * Ensured all explanations follow the new 2025 system design.
@@ -63,6 +90,7 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 ---
 
 ## [v1.2.0] - 2025-11-13
+
 ### Added
 - First Initial Exchange Offering (IEO) framework for SACE on P2B Exchange (300 million SACE tokens at $23 USD per token).  
 - README.md updated with a summary and backlink to the SACE IEO Listing Framework.
@@ -107,6 +135,7 @@ It establishes a stable, verifiable baseline for all SACE smart contracts on BSC
 ---
 
 ## [v1.1.0] - 2025-11-11
+
 ### Added
 - **SACE_BENCHMARK.md** — Introduced a detailed analysis and documentation explaining how SACE is benchmarked against the U.S. Dollar Index (DXY) instead of a single U.S. Dollar.  
   - Describes the use of on-chain, upgradeable UUPS architecture to integrate DXY price feeds from trusted oracles.  
@@ -123,6 +152,7 @@ This release formalizes SACE’s macroeconomic benchmarking structure, ensuring 
 ---
 
 ## [v1.1.0] - 2025-11-10
+
 ### Added
 - **Treasury & Growth Fund Allocation:** Introduced a new section detailing the allocation of **17.5 billion SACE** (estimated at **$402.5 billion USD**) to the **SACE Treasury and Ecosystem Growth Fund**.  
 - The fund is dedicated to financing and deploying **AfrailX smart-rail infrastructure systems** across Africa, supporting regional integration and sustainable mobility through blockchain innovation.
@@ -148,6 +178,7 @@ This release refines SACE’s on-chain economic model documentation and strength
 ---
 
 ## [v1.0.8] - 2025-11-02  
+
 ### Comprehensive Documentation and Oracle Transparency Update for SACE Contracts
 
 #### Added
