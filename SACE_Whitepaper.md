@@ -10,11 +10,13 @@
 
 ## Abstract
 
-The **Synthetic African Currency Exchange (SACE)** is a blockchain-native BEP-20 token engineered to represent a **weighted basket of Africa’s top-performing currencies**. By creating a synthetic currency index for Africa, SACE delivers a unified benchmark for tracking the continent’s currency strength. Inspired by the proven model of the **U.S. Dollar Index (DXY)**, **S&P 500**, **Dow Jones Industrial Averages (DJIA)**, and **NASDAQ 100**, SACE offers a transparent, tradable instrument that reflects Africa’s collective economic performance, facilitates cross-border trade, and provides **traders and investors** a powerful tool for exposure and hedging within the **African forex landscape**.
+**Synthetic African Currency Exchange (SACE)** is a blockchain-native BEP-20 token engineered to represent a **weighted basket of Africa’s top-performing currencies** benchmarked directly to the **U.S. Dollar Index (DXY)**. By creating a synthetic currency index for Africa, SACE delivers a unified benchmark for tracking the continent’s economic strength.
+
+Inspired by the proven model of the **DXY**, **S&P 500**, **Dow Jones Industrial Averages (DJIA)**, and **NASDAQ 100**, SACE offers a transparent, tradable instrument that reflects Africa’s collective economic performance, facilitates cross-border trade, and provides **traders and investors** a powerful tool for exposure and hedging within the **African forex landscape**.
 
 SACE is a development brand of **Abba Payments Ltd.**, a wholly-owned subsidiary of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of **CillarCoin (CILLAR)** — a utility token — and **Namibia Digital Dollar (NADD)**, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar. Simon Kapenda holds a Bachelor of Science degree in Economics from **The Ohio State University in Columbus, Ohio, USA**, where he graduated in 2008 alongside **JD Vance, Vice President of the United States**.
 
-SACE will serve as:
+SACE serves as:
 - **A tradable synthetic index** paired against USD or other basket currencies.
 - **A transparent liquidity instrument** for African currencies.
 - **A governance-driven financial infrastructure** to track Africa’s overall economic strength, performance, and movement.
@@ -25,7 +27,7 @@ SACE will serve as:
 
 The **Synthetic African Currency Exchange (SACE Index)** represents a groundbreaking blockchain-native financial innovation designed to unify and track the collective strength of **Africa’s top 21 performing national currencies**. Modeled on the principles of the **U.S. Dollar Index (DXY)**, **S&P 500**, **Dow Jones Industrial Averages (DJIA)**, and **NASDAQ 100**, the SACE Index serves as a synthetic benchmark that reflects and tracks Africa’s macroeconomic performance within a transparent, tradable, and algorithmically balanced digital asset.
 
-A key structural feature of the SACE Index i is that it is benchmarked directly to **the U.S. Dollar Index (DXY)**. The DXY is the world's most widely used measurement of the U.S. dollar's global value, and linking SACE to the DXY provides an internationally recognized anchor. By combining the stability and global relevance of the DXY with the internal weighting of African currency data, SACE creates a new hybrid valuation system that reflects both global and regional economic realities.
+A key structural feature of the SACE Index is that it is benchmarked directly to **the U.S. Dollar Index (DXY)**. The DXY is the world's most widely used measurement of the U.S. dollar's global value, and linking SACE to the DXY provides an internationally recognized anchor. By combining the stability and global relevance of the DXY with the internal weighting of African currency data, SACE creates a new hybrid valuation system that reflects both global and regional economic realities.
 
 SACE is deployed on the **BNB Smart Chain (BEP-20)** and operates using algorithmic index calculations, decentralized price feeds, and an **on-chain Oracle Registry** to validate all incoming data. The system continuously monitors Chainlink price feeds, verifies deviation tolerances, and updates the SACE Index only when data meets strict integrity requirements. Historical pricing, transparency, and automated governance ensure that SACE maintains predictable behavior and strong auditability.
 
