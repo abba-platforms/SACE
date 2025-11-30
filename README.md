@@ -111,7 +111,7 @@ As of October 2025, the SACE Currency Basket Index includes the following Africa
 
 ---
 
-## 🧩 SACE Smart Contract Overview
+## 🧩 SACE Contract Overview
 
 The Synthetic African Currency Exchange (**SACE**) is deployed on **BNB Smart Chain (Mainnet)** and operates through a verifiable, upgradeable contract architecture designed for transparency, real-time data accuracy, and investor trust.
 
@@ -138,9 +138,9 @@ For full details, architecture diagrams, and currency feed structure, see [SACE_
 
 ---
 
-## SACE System Architech
+## SACE System Architect 
 
-The SACE System Architech is composed of the **SACE Proxy & Implementation**, together with **SACEOracleRegistry** and **SACEPriceUpdater**, with **Security and Governance** enforced via a **Gnosis Safe multisig** controlling all critical operations. It includes a System Flow Diagram providing an end-to-end overview of the oracle → updater → proxy pipeline. For the complete architecture, detailed deployment information, and flow diagrams, see the full documentation: [SACE_SYSTEM_ARCHITECT.md](./SACE_SYSTEM_ARCHITECT.md)
+The SACE System Architect is composed of the **SACE Proxy & Implementation**, together with **SACEOracleRegistry** and **SACEPriceUpdater**, with **Security and Governance** enforced via a **Gnosis Safe multisig** controlling all critical operations. It includes a System Flow Diagram providing an end-to-end overview of the oracle → updater → proxy pipeline. For the complete architecture, detailed deployment information, and flow diagrams, see the full documentation: [SACE_SYSTEM_ARCHITECT.md](./SACE_SYSTEM_ARCHITECT.md)
 
 ---
 
