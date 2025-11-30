@@ -4,10 +4,24 @@ All notable changes to Synthetic Africa Currency Exchange (SACE) are documented 
 This includes releases, upgrades, and important updates to the tokenomics and related frameworks.
 
 **Project:** Synthetic Africa Currency Exchange (SACE)  
-**Author:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)
+**Author:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)       
 **Organization:** Abba Platforms Inc.  
 **License:** MIT  
 **Start Date:** October 6, 2025
+
+---
+
+## v1.3.0 – 2025-11-30
+
+### Added / Updated
+- Added `SACEPriceUpdater.sol` to `/contracts/`.
+- Renamed `SACE.sol.md` → `SACE.sol` and `SACEOracleRegistry.sol.md` → `SACEOracleRegistry.sol`.
+- Added redacted-code notice headers to `SACE.sol`, `SACEPriceUpdater`, and `SACEOracleRegistry.sol` clarifying that some implementation details and imports have been intentionally removed.
+- Updated documentation and README references to point to `SACE_SYSTEM_ARCHITECT.md`.
+
+### Notes
+- This release focuses on improving repository clarity and protecting proprietary contract code.
+- No functional changes were introduced on-chain; full contracts remain verified on Etherscan.
 
 ---
 
