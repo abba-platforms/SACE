@@ -138,6 +138,12 @@ For full details, architecture diagrams, and currency feed structure, see [SACE_
 
 ---
 
+## SACE System Architech
+
+The SACE System Architech is composed of the **SACE Proxy & Implementation**, together with **SACEOracleRegistry** and **SACEPriceUpdater**, with **Security and Governance** enforced via a **Gnosis Safe multisig** controlling all critical operations. It includes a System Flow Diagram providing an end-to-end overview of the oracle → updater → proxy pipeline. For the complete architecture, detailed deployment information, and flow diagrams, see the full documentation: [SACE_SYSTEM_ARCHITECT.md](./SACE_SYSTEM_ARCHITECT.md)
+
+---
+
 ## 📊 SACE Basket Value Summary
 
 As the Synthetic African Currency Exchange (**SACE**) representing a weighted basket of Africa’s top 21 performing currencies, the combined estimated value of this basket is approximately **$2.3 trillion USD**, as of October 2025.
