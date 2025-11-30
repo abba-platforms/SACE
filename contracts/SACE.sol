@@ -1,4 +1,18 @@
 // SPDX-License-Identifier: MIT
+//
+// NOTICE:
+// This repository contains a redacted version of the SACE smart contracts.
+// Certain internal logic, imports, and implementation details have been
+// intentionally removed to protect proprietary mechanisms of the SACE system.
+//
+// The deployed contracts on-chain are complete and fully functional,
+// and their bytecode has been verified. This public version provides
+// transparency for the overall architecture, interfaces, and workflow,
+// while safeguarding critical intellectual property.
+//
+// If you require full access for audit or integration purposes,
+// please contact the SACE development team directly.
+
 pragma solidity ^0.8.21;
 
 /**
@@ -7,14 +21,6 @@ pragma solidity ^0.8.21;
  * @notice BEP-20 Upgradeable token representing a weighted basket of Africa's top 21 currencies
  * @dev Version 2.2 — Production-grade improvements for gas, oracle safety, and upgrade security
  */
-
-import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
-import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
 import "./interfaces/AggregatorV3Interface.sol";
 
 contract SACE is 
@@ -66,49 +72,6 @@ contract SACE is
      * @param _treasuryWallet Wallet that will hold the initial supply
      */
     function initialize(address _treasuryWallet) public initializer {
-        require(_treasuryWallet != address(0), "Invalid treasury wallet");
-
-        _customName = "SACE Index";
-        __ERC20_init(_customName, "SACE");
-        __ERC20Permit_init("SACE");
-        __ERC20Burnable_init();
-        __Ownable_init();
-        __UUPSUpgradeable_init();
-        __ReentrancyGuard_init();
-        __Pausable_init();
-
-        treasuryWallet = _treasuryWallet;
-        _mint(_treasuryWallet, MAX_SUPPLY);
-    }
-
-    /**
-     * @notice Fetch latest price from Chainlink or fallback
-     * @param feed Chainlink feed address
-     * @param code Currency code
-     * @return normalizedPrice Latest normalized price
-     */
-    function getLatestPrice(address feed, bytes32 code) public returns (uint256) {
-        require(feed != address(0), "Oracle feed address invalid");
-
-        AggregatorV3Interface priceFeed = AggregatorV3Interface(feed);
-        (, int price, , uint256 updatedAt, ) = priceFeed.latestRoundData();
-
-        require(price > 0, "Invalid oracle price");
-
-        uint256 normalizedPrice = uint256(price) * 1e10; // normalize to 1e18
-        uint256 previousPrice = lastValidPrice[code];
-
-        if (previousPrice != 0) {
-            uint256 deviation = normalizedPrice > previousPrice
-                ? ((normalizedPrice - previousPrice) * 10000) / previousPrice
-                : ((previousPrice - normalizedPrice) * 10000) / previousPrice;
-
-            if (deviation > MAX_DEVIATION_BASIS_POINTS || block.timestamp - updatedAt > HEARTBEAT) {
-                emit PriceDeviationRejected(code, normalizedPrice, previousPrice, deviation);
-                return previousPrice; // fallback to last valid price
-            }
-        }
-
         lastValidPrice[code] = normalizedPrice;
         return normalizedPrice;
     }
