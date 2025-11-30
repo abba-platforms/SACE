@@ -1,4 +1,18 @@
 // SPDX-License-Identifier: MIT
+//
+// NOTICE:
+// This repository contains a redacted version of the SACE smart contracts.
+// Certain internal logic, imports, and implementation details have been
+// intentionally removed to protect proprietary mechanisms of the SACE system.
+//
+// The deployed contracts on-chain are complete and fully functional,
+// and their bytecode has been verified. This public version provides
+// transparency for the overall architecture, interfaces, and workflow,
+// while safeguarding critical intellectual property.
+//
+// If you require full access for audit or integration purposes,
+// please contact the SACE development team directly.
+
 pragma solidity ^0.8.21;
 
 /**
@@ -132,21 +146,7 @@ contract SACEPriceUpdater is Initializable, OwnableUpgradeable, PausableUpgradea
     function updateHybridBatch(bytes32[] calldata keys) external onlyOwner nonReentrant whenNotPaused {
         require(keys.length <= 50, "Batch too large");
 
-        string[] memory codes = new string[](keys.length);
-        uint256[] memory oldPrices = new uint256[](keys.length);
-        uint256[] memory newPrices = new uint256[](keys.length);
-
-        for (uint256 i = 0; i < keys.length; i++) {
-            bytes32 key = keys[i];
-
-            (uint256 price, ) = oracleRegistry.getPrice(key);
-            SACE.Currency memory currency = sace.getCurrency(key);
-            uint256 oldPrice = currency.rateUSD;
-
-            oldPrices[i] = oldPrice;
-            newPrices[i] = price;
-
-            // FIX: replace getCurrencyCode(key) with safe string conversion
+     // FIX: replace getCurrencyCode(key) with safe string conversion
             string memory code = string(abi.encodePacked(key));
             codes[i] = code;
 
