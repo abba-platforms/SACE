@@ -4,12 +4,30 @@ All notable changes to Synthetic Africa Currency Exchange (SACE) are documented 
 This includes releases, upgrades, and important updates to the tokenomics and related frameworks.
 
 **Project:** Synthetic Africa Currency Exchange (SACE)  
-**Author:** Simon Kapenda  
+**Author:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)
 **Organization:** Abba Platforms Inc.  
 **License:** MIT  
 **Start Date:** October 6, 2025
 
 ---
+
+## [v1.3.0] - 2025-11-30
+### Added
+- Full **SACE System Architecture** documentation committed as `SACE_SYSTEM_ARCHITECT.md`.
+- Detailed explanation of:
+  - SACE Proxy & Implementation
+  - SACEOracleRegistry and SACEPriceUpdater
+  - Security & Governance via Gnosis Safe multisig
+  - System Flow Diagram showing end-to-end oracle → updater → proxy pipeline
+- Clear, professional formatting for easier reference in GitHub editor and raw markdown.
+
+### Changed
+- README updated with a summarized description linking to `SACE_SYSTEM_ARCHITECT.md`.
+- Diagram formatting adjusted for proper alignment in GitHub text editor (left-aligned flowchart).
+
+### Notes
+- This release focuses on system architecture clarity and developer reference.
+- Ensures all components and flow are clearly documented for auditors, investors, and ecosystem partners.
 
 ## [v1.2.0] - 2025-11-21
 
