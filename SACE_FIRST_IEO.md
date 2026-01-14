@@ -5,11 +5,11 @@ SACE (Synthetic African Currency Exchange) has successfully completed a major up
 
 ## IEO Allocation
 A total of 2.5 billion SACE tokens have been allocated for the Initial Exchange Offering (IEO) phase.
-For the initial listing stage, 300 million SACE tokens will be listed on P2B Exchange to initiate trading and establish organic market-driven price discovery.
+For the initial listing stage, 30 million SACE tokens will be listed on **UpBit Exchange** to initiate trading and establish organic market-driven price discovery.
 
 | Exchange      | Tokens Listed      | Percentage of IEO Supply | Status     |
 |----------------|-------------------|---------------------------|-------------|
-| P2B Exchange   | 300,000,000 SACE  | 12%                       | TBA   |
+| UpBit Exchange   | 30,000,000 SACE  | 0.03%                       | TBA   |
 
 ## Token Valuation
 Each SACE token is valued at $23 USD, reflecting its representation of Africa’s Top 21 Performing National Currencies, whose combined weighted basket index is valued at approximately $2.3 trillion USD.
@@ -25,7 +25,7 @@ This valuation approach reinforces SACE’s purpose:
 - Listing Exchange: P2B Exchange (Initial IEO Phase)
 - Valuation Basis: $23 per SACE token
 - IEO Allocation: 2.5 billion SACE
-- Initial Listing: 300 million SACE (12%)
+- Initial Listing: 30 million SACE (0.03%)
 
 ## Valuation Derivation Formula
 The combined gross value of Africa’s top 21 performing currencies represents approximately $2.3 trillion USD.
