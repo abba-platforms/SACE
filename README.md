@@ -17,7 +17,7 @@ world’s largest digital asset exchanges.
 
 **KEY DETAILS**
 
-- **Exchange:** UpBit Exchange
+- **Exchange:** UpBit Exchange (https://upbit.com)
 - **Exchange Type:** Top Tier 1 Centralized Exchange (CEX)
 - **Exchange Location:** South Korea   
 - **Offering Type:** Initial Exchange Offering (IEO)
