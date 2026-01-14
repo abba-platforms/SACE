@@ -43,15 +43,16 @@ This pricing ensures that SACE acts as a **transparent, market-representative be
 ---
 
 ## 4. IEO Framework
-- **IEO Allocation:** 2.5 Billion SACE  
+- **IEO Allocation:** 2.5 Billion SACE
+- **First IEO:** 30,000,000 SACE on **UpBit Exchange**
 - **IEO Price:** $23 per token  
-- **Soft Cap:** $5 Billion USD  
-- **Hard Cap:** $57.5 Billion USD  
+- **Initial IEO Target Amount:** $690 Million USD  
+- **Market Cap FDV:** $2.3 Trillion USD  
 - **Accepted Currencies:** USDT  
 - **Vesting Schedule:**  
   - 20% unlocked at TGE (Token Generation Event)  
   - 80% linear release over 12 months  
-- **Target Exchanges:** KuCoin, P2B, BitMart, MEXC (Tier-2 for liquidity and visibility)
+- **Target Exchanges:** UpBit, Coinbase, Binance Alpha (Tier-1 for liquidity and visibility)
 
 ---
 
@@ -82,7 +83,7 @@ This pricing ensures that SACE acts as a **transparent, market-representative be
 - **Smart Contract:** Verified and deployed on **BSC Mainnet**  
 - **SACE Contract Address (Proxy):** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`  
 - **Implementation Contract:** Verified and upgradeable  
-- **Exchange Listing:** Negotiations with **KuCoin** for IEO  
+- **Exchange Listing:** Contract signed with **UpBit Exchange** for IEO  
 - **Public Announcement:** “SACE Mainnet Deployment — Tokenizing $2.3 Trillion in Digital Securities Infrastructure”
 
 ---
