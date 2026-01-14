@@ -11,6 +11,17 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 
 ---
 
+## v1.3.0 – 2026-01-14
+
+### Added
+- Announced the Initial Exchange Offering (IEO) of SACE Index ($SACE) on UpBit Exchange.
+- Documented allocation of 30,000,000 SACE tokens for the IEO.
+- Recorded indicative IEO price of USD $23.00 per SACE.
+- Added contract signing date with UpBit Exchange (January 12, 2026).
+- Noted that the IEO launch date is to be announced (TBA).
+
+---
+
 ## v1.3.0 – 2025-11-30
 
 ### Added / Updated
