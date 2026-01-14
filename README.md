@@ -5,16 +5,45 @@
 ![Build](https://img.shields.io/badge/Build-Upgradeable%20UUPS-orange.svg)
 ![Creator](https://img.shields.io/badge/Creator-Simon%20Kapenda-lightgrey.svg)
 
-# Synthetic African Currency Exchange (SACE)
+# Synthetic African Currency Exchange (SACE Index)
 
-**Token:** SACE Index     
-**Ticker:** SACE  
+## PROJECT UPDATE: JANUARY 14, 2026
+
+### Initial IEO Listing on UpBit Exchange
+
+We are pleased to announce that **SACE Index ($SACE)** has formally entered into an
+agreement for its Initial Exchange Offering (IEO) on **UpBit Exchange**, one of the
+world’s largest digital asset exchanges.
+
+**KEY DETAILS**
+
+- **Exchange:** UpBit Exchange
+- **Exchange Type:** Top Tier 1 Centralized Exchange (CEX)
+- **Exchange Location:** South Korea   
+- **Offering Type:** Initial Exchange Offering (IEO)
+- **Tokens Allocated:** 30,000,000 SACE
+- **Indicative Price:** USD $23.00 per SACE
+- **Total Indicative Offering Value:** USD $690,000,000
+- **Contract Signing Date:** January 12, 2026
+- **IEO Launch Date:** To Be Announced (TBA)
+
+This IEO represents a major milestone for the SACE Index as it progresses toward broader global market access and institutional-grade liquidity. Additional
+information regarding the IEO structure, participation mechanics, and final timeline will be published as details are finalized.
+
+For full details, see the [SACE IEO Listing Framework](./SACE_FIRST_IEO.md).
+
+---
+
+## Project Details
+
+**Token Name:** SACE Index     
+**Token Symbol:** SACE  
 **Token Type:** BEP-20 Upgradeable  
 **Total Supply:** 100,000,000,000 SACE  
 **Creator:** [Simon Kapenda](https://linkedin.com/in/simonkapenda)       
 **Version:** 1.1  
-**Date:** October 6, 2025    
-**Updated:** November 21, 2025
+**Date:** October 6, 2025   
+**Updated:** January 14, 2026
 
 ---
 
@@ -36,7 +65,7 @@ SACE Index provides a unified benchmark for Africa’s collective currency stren
 
 ## SACE IEO Listing Framework
 
-SACE has chosen to conduct its first Initial Exchange Offering (IEO) on P2B Exchange. This IEO will begin with 300 million SACE tokens, priced at $23 USD per token, based on the weighted basket of Africa's top 21 performing national currencies (combined gross value: $2.3 trillion USD).
+SACE has chosen to conduct its first Initial Exchange Offering (IEO) on **UpBit Exchange**. This IEO will begin with 300 million SACE tokens, priced at $23 USD per token, based on the weighted basket of Africa's top 21 performing national currencies (combined gross value: $2.3 trillion USD).
 
 For full details, see the [SACE IEO Listing Framework](./SACE_FIRST_IEO.md).
 
