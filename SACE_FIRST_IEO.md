@@ -1,4 +1,23 @@
-# SACE IEO Listing Framework
+# SACE Initial Exchange Offering (IEO) Listing Framework
+
+### First IEO on UpBit Exchange
+
+We are pleased to announce that **SACE Index ($SACE)** has formally entered into an agreement on January 11, 2026 for its Initial Exchange Offering (IEO) on **UpBit Exchange**, one of the world’s largest digital asset exchanges.
+
+**KEY DETAILS**
+
+- **Exchange:** UpBit Exchange (https://upbit.com)
+- **Exchange Type:** Top Tier 1 Centralized Exchange (CEX)
+- **Exchange Location:** South Korea   
+- **Offering Type:** Initial Exchange Offering (IEO)
+- **Tokens Allocated:** 30,000,000 SACE
+- **Indicative Price:** USD $23.00 per SACE
+- **Total Indicative Offering Value:** USD $690,000,000
+- **Contract Signing Date:** January 12, 2026
+- **IEO Launch Date:** To Be Announced (TBA)
+
+This IEO represents a major milestone for the SACE Index as it progresses toward broader global market access and institutional-grade liquidity. Additional
+information regarding the IEO structure, participation mechanics, and final timeline will be published as details are finalized.
 
 ## Overview
 SACE (Synthetic African Currency Exchange) has successfully completed a major upgrade and is now benchmarked to the DXY Index rather than a single USD currency. This shift gives SACE a stronger, more globally diversified valuation foundation aligned with international standards while maintaining its African economic representation through its 21 top-performing national currencies.
@@ -37,4 +56,7 @@ Thus, the intrinsic base price of each SACE token is established at $23.
 
 ## Reference
 SACE Contract Flow Documentation:  
-[SACE CONTRACT FLOW](https://github.com/abba-platforms/SACE/blob/main/SACE_CONTRACT_FLOW.md)
+[SACE Contract Flow](https://github.com/abba-platforms/SACE/blob/main/SACE_CONTRACT_FLOW.md)
+
+Full Details About SACE:   
+[SACE Whitepaper](https://github.com/abba-platforms/SACE/blob/main/SACE_Whitepaper.md)
