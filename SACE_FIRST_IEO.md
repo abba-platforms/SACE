@@ -41,7 +41,7 @@ This valuation approach reinforces SACE’s purpose:
 - Economic Base: 21 of Africa’s top-performing national currencies
 - Total Combined Valuation: Approximately $2.3 trillion USD — the gross economic value represented by the SACE Index
 - Regional Focus: Pan-African with global interoperability
-- Listing Exchange: P2B Exchange (Initial IEO Phase)
+- Listing Exchange: UpBit Exchange (Initial IEO Phase)
 - Valuation Basis: $23 per SACE token
 - IEO Allocation: 2.5 billion SACE
 - Initial Listing: 30 million SACE (0.03%)
