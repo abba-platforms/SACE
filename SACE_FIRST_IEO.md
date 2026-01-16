@@ -1,4 +1,4 @@
-0# SACE Initial Exchange Offering (IEO) Listing Framework
+# SACE Initial Exchange Offering (IEO) Listing Framework
 
 ### First IEO on UpBit Exchange
 
