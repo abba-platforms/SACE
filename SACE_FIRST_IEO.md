@@ -1,4 +1,4 @@
-# SACE Initial Exchange Offering (IEO) Listing Framework
+0# SACE Initial Exchange Offering (IEO) Listing Framework
 
 ### First IEO on UpBit Exchange
 
@@ -20,7 +20,7 @@ This IEO represents a major milestone for the SACE Index as it progresses toward
 information regarding the IEO structure, participation mechanics, and final timeline will be published as details are finalized.
 
 ## Overview
-SACE (Synthetic African Currency Exchange) has successfully completed a major upgrade and is now benchmarked to the DXY Index rather than a single USD currency. This shift gives SACE a stronger, more globally diversified valuation foundation aligned with international standards while maintaining its African economic representation through its 21 top-performing national currencies.
+The Synthetic African Currency Exchange (SACE Index) is a blockchain-native index token deployed on BNB Smart Chain (BEP-20). It represents a weighted basket of Africa’s top 21 performing national currencies and is benchmarked against the U.S. Dollar Index (DXY). SACE is designed to function as a transparent, tradable benchmark for Africa’s macroeconomic performance, foreign exchange exposure, and cross-border trade facilitation.
 
 ## IEO Allocation
 A total of 2.5 billion SACE tokens have been allocated for the Initial Exchange Offering (IEO) phase.
