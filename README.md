@@ -25,7 +25,7 @@ world’s largest digital asset exchanges.
 - **Indicative Price:** USD $23.00 per SACE
 - **Total Indicative Offering Value:** USD $690,000,000
 - **Contract Signing Date:** January 12, 2026
-- **IEO Launch Date:** To Be Announced (TBA)
+- **IEO Launch Date:** January 27, 2026
 
 This IEO represents a major milestone for the SACE Index as it progresses toward broader global market access and institutional-grade liquidity. Additional
 information regarding the IEO structure, participation mechanics, and final timeline will be published as details are finalized.
