@@ -11,6 +11,28 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 
 ---
 
+# CHANGELOG
+
+## [1.3.1] – 2026-01-17
+### Added
+- This release (v1.3.1) has been added to the repository.
+
+### Changed
+- Updated the confirmed IEO Launch Date for SACE Index on UpBit Exchange from TBA to January 27, 2026.
+- Synchronized the README and SACE_FIRST_IEO.md files with the confirmed launch date.
+
+### Impact
+- Ensures documentation reflects accurate information for investors, contributors, and partners.
+- Supports official marketing and launch communications.
+
+## [1.3.0] – 2026-01-10
+### Added
+- Initial documentation for SACE Index IEO on UpBit Exchange.
+- README and SACE_FIRST_IEO.md files created with TBA launch date.
+- Basic repository structure for token details, contract info, and project resources.
+
+---
+
 ## v1.3.0 – 2026-01-14
 
 ### Added
