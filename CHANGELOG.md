@@ -11,8 +11,6 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 
 ---
 
-# CHANGELOG
-
 ## [1.3.1] – 2026-01-17
 ### Added
 - This release (v1.3.1) has been added to the repository.
