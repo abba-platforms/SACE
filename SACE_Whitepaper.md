@@ -43,9 +43,9 @@ Upon the debut of SACE’s Initial Exchange Offering (IEO), SACE is projected to
 **Token Name:** SACE Index  
 **Symbol:** SACE  
 **Network:** BEP-20 (BNB Smart Chain)  
-**SACE Proxy (Main):** `0x5D1B7B3fEf0C48bB9a11068E5D12f0d90B7eF8c2`  
+**SACE Proxy (Main):** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`  
 **SACE Implementation (Verified):** `0xf84D3BA755a5c8FBffb2776948F61676552f39bB`  
-**SACE Oracle Registry:** `0x9F6d0EDc0eB6BBa34F06CeC4fbA7f91bb4600F73`  
+**SACE Oracle Registry:** `0x96DCdC8C5A5C2B2Fdb5CB1C882234311b2dc797d`  
 **SACE Price Updater:** `0x8C4A89223af9Ce160927D6Fcbd85e10084eAB7Bc`  
 **Official Website:** [https://sacex.io](https://sacex.io)  
 **GitHub Repo:** [https://github.com/abba-platforms/SACE](https://github.com/abba-platforms/SACE)  
