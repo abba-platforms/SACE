@@ -2,7 +2,7 @@
 
 ### First IEO on BitMart Exchange
 
-We are pleased to announce that **SACE Index ($SACE)** has formally entered into an agreement on **January 9, 2026** for its Initial Exchange Offering (IEO) on **BitMart Exchange**, a leading global digital asset exchange.
+We are pleased to announce that **SACE Index ($SACE)** has formally entered into an agreement on **February 9, 2026** for its Initial Exchange Offering (IEO) on **BitMart Exchange**, a leading global digital asset exchange.
 
 **KEY DETAILS**
 
@@ -13,7 +13,7 @@ We are pleased to announce that **SACE Index ($SACE)** has formally entered into
 - Tokens Allocated: 1,500,000 SACE
 - Indicative Price: USD $23.00 per SACE
 - Total Indicative Offering Value: USD $34,500,000
-- Contract Signing Date: January 9, 2026
+- Contract Signing Date: February 9, 2026
 - IEO Launch Date: March 2026 (TBA)
 
 This IEO represents a major milestone for the SACE Index as it progresses toward broader global market access and institutional-grade liquidity. Additional
