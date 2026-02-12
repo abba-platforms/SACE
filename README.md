@@ -7,25 +7,24 @@
 
 # Synthetic African Currency Exchange (SACE Index)
 
-## PROJECT UPDATE: JANUARY 14, 2026
+## PROJECT UPDATE: FEBRUARY 12, 2026
 
-### Initial IEO Listing on UpBit Exchange
+### Initial IEO Listing on BitMart Exchange
 
-We are pleased to announce that **SACE Index ($SACE)** has formally entered into an
-agreement for its Initial Exchange Offering (IEO) on **UpBit Exchange**, one of the
-world’s largest digital asset exchanges.
+We are pleased to announce that SACE Index ($SACE) has formally entered into an agreement for its Initial Exchange Offering (IEO) on BitMart Exchange, a leading
+global digital asset exchange (replacing UpBit Exchange as previously announced).
 
-**KEY DETAILS**
+KEY DETAILS
 
-- **Exchange:** UpBit Exchange (https://upbit.com)
-- **Exchange Type:** Top Tier 1 Centralized Exchange (CEX)
-- **Exchange Location:** South Korea   
-- **Offering Type:** Initial Exchange Offering (IEO)
-- **Tokens Allocated:** 30,000,000 SACE
-- **Indicative Price:** USD $23.00 per SACE
-- **Total Indicative Offering Value:** USD $690,000,000
-- **Contract Signing Date:** January 12, 2026
-- **IEO Launch Date:** January 27, 2026
+- Exchange: BitMart Exchange (https://www.bitmart.com)
+- Exchange Type: Centralized Exchange (CEX)
+- Exchange Coverage: Global
+- Offering Type: Initial Exchange Offering (IEO)
+- Tokens Allocated: 1,500,000 SACE
+- Indicative Price: USD $23.00 per SACE
+- Total Indicative Offering Value: USD $34,500,000
+- Contract Signing Date: January 9, 2026
+- IEO Launch Date: March 2026 (TBA)
 
 This IEO represents a major milestone for the SACE Index as it progresses toward broader global market access and institutional-grade liquidity. Additional
 information regarding the IEO structure, participation mechanics, and final timeline will be published as details are finalized.
@@ -65,7 +64,7 @@ SACE Index provides a unified benchmark for Africa’s collective currency stren
 
 ## SACE IEO Listing Framework
 
-SACE has chosen to conduct its first Initial Exchange Offering (IEO) on **UpBit Exchange**. This IEO will begin with 300 million SACE tokens, priced at $23 USD per token, based on the weighted basket of Africa's top 21 performing national currencies (combined gross value: $2.3 trillion USD).
+SACE has chosen to conduct its first Initial Exchange Offering (IEO) on **Bitmart Exchange**. This IEO will begin with 1.5 million SACE tokens, priced at $23 USD per token, based on the weighted basket of Africa's top 21 performing national currencies (combined gross value: $2.3 trillion USD).
 
 For full details, see the [SACE IEO Listing Framework](./SACE_FIRST_IEO.md).
 
@@ -79,7 +78,7 @@ SACE consolidates Africa’s top 21 currencies into a single tradable instrument
 
 Additionally, the **SACE Index is benchmarked directly to the U.S. Dollar Index (DXY)**, ensuring that its valuation aligns with globally recognized macroeconomic standards. This integration provides greater stability, reduces single-currency dependency, and enhances international investor confidence by anchoring SACE to a diversified basket of major world currencies rather than a single USD peg.
 
-SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of **CillarCoin (CILLAR)** — a utility token — and **Namibia Digital Dollar (NADD)**, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar. Together, **SACE**, **CILLAR**, and **NADD** form the foundation of Abba Platforms’ digital asset ecosystem — advancing Africa’s financial inclusion, liquidity, and cross-border economic integration through blockchain innovation.
+SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of **CillarCoin (CILLAR)** — a utility token built to serve as the fare payment tool for AfrailX smart mobility, **US Health Index (USHX)**, tracking the macro-economic performance of the US health sector, and **Namibia Digital Dollar (NADD)**, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar. Together, **SACE**, **CILLAR**, **USHX**, and **NADD** form the foundation of Abba Platforms’ digital asset ecosystem — advancing Africa’s financial inclusion, liquidity, and cross-border economic integration through blockchain innovation.
 
 ---
 
