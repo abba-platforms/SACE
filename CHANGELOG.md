@@ -11,6 +11,14 @@ This includes releases, upgrades, and important updates to the tokenomics and re
 
 ---
 
+## [1.3.1] – 2026-02-12
+
+### Changed
+- Updated the initial IEO listing announcement to reflect BitMart Exchange (replacing the previously referenced UpBit Exchange).
+- Updated key IEO parameters: exchange details, token allocation (1,500,000 SACE), indicative price ($23.00), total indicative value ($34,500,000), contract signing date (Jan 9, 2026), and launch date (March 2026, TBA).
+
+---
+
 ## [1.3.1] – 2026-01-17
 ### Added
 - This release (v1.3.1) has been added to the repository.
