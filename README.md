@@ -23,7 +23,7 @@ KEY DETAILS
 - Tokens Allocated: 1,500,000 SACE
 - Indicative Price: USD $23.00 per SACE
 - Total Indicative Offering Value: USD $34,500,000
-- Contract Signing Date: January 9, 2026
+- Contract Signing Date: February 9, 2026
 - IEO Launch Date: March 2026 (TBA)
 
 This IEO represents a major milestone for the SACE Index as it progresses toward broader global market access and institutional-grade liquidity. Additional
